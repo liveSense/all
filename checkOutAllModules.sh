@@ -1,0 +1,32 @@
+git submodule add git@github.com:liveSense/org.liveSense.parent.git org.liveSense.parent
+git submodule add git@github.com:liveSense/org.liveSense.auth.ldap.git org.liveSense.auth.ldap
+git submodule add git@github.com:liveSense/org.liveSense.core.git org.liveSense.core
+git submodule add git@github.com:liveSense/org.liveSense.misc.sun.misc.git org.liveSense.misc.sun.misc
+git submodule add git@github.com:liveSense/org.liveSense.misc.configurationLoader.git org.liveSense.misc.configurationLoader
+git submodule add git@github.com:liveSense/org.liveSense.misc.queryBuilder.git org.liveSense.misc.queryBuilder
+git submodule add git@github.com:liveSense/org.liveSense.misc.i18n.git org.liveSense.misc.i18n
+git submodule add git@github.com:liveSense/org.liveSense.misc.jsr303.git org.liveSense.misc.jsr303
+git submodule add git@github.com:liveSense/org.liveSense.misc.image.codec.jpeg.git org.liveSense.misc.image.codec.jpeg
+git submodule add git@github.com:liveSense/org.liveSense.misc.javax.persistence.git org.liveSense.misc.javax.persistence
+git submodule add git@github.com:liveSense/org.liveSense.misc.gwt.jsr303.git org.liveSense.misc.gwt.jsr303
+git submodule add git@github.com:liveSense/org.liveSense.scripting.jsp.taglib.json.git org.liveSense.scripting.jsp.taglib.json
+git submodule add git@github.com:liveSense/org.liveSense.scripting.jsp.taglib.jstl.git org.liveSense.scripting.jsp.taglib.jstl
+git submodule add git@github.com:liveSense/org.liveSense.jackrabbit.server.jdbc.mysql.git org.liveSense.jackrabbit.server.jdbc.mysql
+git submodule add git@github.com:liveSense/org.liveSense.servlet.gwtrpc.git org.liveSense.servlet.gwtrpc
+git submodule add git@github.com:liveSense/org.liveSense.service.dataSourceProvider.git org.liveSense.service.dataSourceProvider
+git submodule add git@github.com:liveSense/org.liveSense.framework.gxt.git org.liveSense.framework.gxt
+git submodule add git@github.com:liveSense/org.liveSense.service.securityManager.git org.liveSense.service.securityManager
+git submodule add git@github.com:liveSense/org.liveSense.service.activation.git org.liveSense.service.activation
+git submodule add git@github.com:liveSense/org.liveSense.service.captcha.git org.liveSense.service.captcha
+git submodule add git@github.com:liveSense/org.liveSense.service.email.git org.liveSense.service.email
+git submodule add git@github.com:liveSense/org.liveSense.service.languageSelector.git org.liveSense.service.languageSelector
+git submodule add git@github.com:liveSense/org.liveSense.service.thumbnailGenerator.git org.liveSense.service.thumbnailGenerator
+git submodule add git@github.com:liveSense/org.liveSense.service.xssRemove.git org.liveSense.service.xssRemove
+git submodule add git@github.com:liveSense/org.liveSense.sample.configurationLoad.git org.liveSense.sample.configurationLoad
+git submodule add git@github.com:liveSense/org.liveSense.sample.gwt.notes.git org.liveSense.sample.gwt.notes
+git submodule add git@github.com:liveSense/org.liveSense.sample.simplePortal.git org.liveSense.sample.simplePortal
+git submodule add git@github.com:liveSense/org.liveSense.content.initial.git org.liveSense.content.initial
+git submodule add git@github.com:liveSense/org.liveSense.webconsole.branding.git org.liveSense.webconsole.branding
+git submodule add git@github.com:liveSense/org.liveSense.launchpad.git org.liveSense.launchpad
+
+

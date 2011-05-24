@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<scm>
+		<connection>scm:git:git://github.com/liveSense/org.liveSense.reactor.git</connection>
+		<developerConnection>scm:git:git://github.com/liveSense/org.liveSense.reactor.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.reactor</url>
+	</scm>
+	<packaging>pom</packaging>
+	<groupId>org.liveSense</groupId>
+	<artifactId>org.livesense.reactor</artifactId>
+	<version>1.0.1-SNAPSHOT</version>
+	<name>liveSense Reactor build</name>
+	<modules>
+		<module>org.liveSense.auth.ldap</module>
+		<module>org.liveSense.parent</module>
+		<module>org.liveSense.core</module>
+		<module>org.liveSense.misc.sun.misc</module>
+		<module>org.liveSense.misc.configurationLoader</module>
+		<module>org.liveSense.misc.queryBuilder</module>
+		<module>org.liveSense.misc.gwt.jsr303</module>
+		<module>org.liveSense.misc.i18n</module>
+		<module>org.liveSense.misc.jsr303</module>
+		<module>org.liveSense.misc.image.codec.jpeg</module>
+		<module>org.liveSense.misc.javax.persistence</module>
+		<module>org.liveSense.scripting.jsp.taglib.json</module>
+		<module>org.liveSense.scripting.jsp.taglib.jstl</module>
+		<module>org.liveSense.jackrabbit.server.jdbc.mysql</module>
+		<module>org.liveSense.servlet.gwtrpc</module>
+		<module>org.liveSense.service.dataSourceProvider</module>
+		<module>org.liveSense.framework.gxt</module>
+		<module>org.liveSense.service.securityManager</module>
+		<module>org.liveSense.service.activation</module>
+		<module>org.liveSense.service.captcha</module>
+		<module>org.liveSense.service.email</module>
+		<module>org.liveSense.service.languageSelector</module>
+		<module>org.liveSense.service.thumbnailGenerator</module>
+		<module>org.liveSense.service.xssRemove</module>
+		<!-- <module>../org.liveSense.service.uploadServlet</module> -->
+		<module>org.liveSense.sample.configurationLoad</module>
+		<module>org.liveSense.sample.gwt.notes</module>
+		<module>org.liveSense.sample.simplePortal</module>
+		<module>org.liveSense.content.initial</module>
+		<module>org.liveSense.webconsole.branding</module>
+		<module>org.liveSense.launchpad</module>
+	</modules>
+</project>
