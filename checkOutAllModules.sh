@@ -6,6 +6,7 @@ git submodule add git@github.com:liveSense/org.liveSense.misc.configurationLoade
 git submodule add git@github.com:liveSense/org.liveSense.misc.queryBuilder.git org.liveSense.misc.queryBuilder
 git submodule add git@github.com:liveSense/org.liveSense.misc.i18n.git org.liveSense.misc.i18n
 git submodule add git@github.com:liveSense/org.liveSense.misc.jsr303.git org.liveSense.misc.jsr303
+git submodule add git@github.com:liveSense/org.liveSense.misc.jcrom.git org.liveSense.misc.jcrom
 git submodule add git@github.com:liveSense/org.liveSense.misc.image.codec.jpeg.git org.liveSense.misc.image.codec.jpeg
 git submodule add git@github.com:liveSense/org.liveSense.misc.javax.persistence.git org.liveSense.misc.javax.persistence
 git submodule add git@github.com:liveSense/org.liveSense.misc.gwt.jsr303.git org.liveSense.misc.gwt.jsr303

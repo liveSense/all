@@ -21,6 +21,7 @@
 		<module>org.liveSense.misc.gwt.jsr303</module>
 		<module>org.liveSense.misc.i18n</module>
 		<module>org.liveSense.misc.jsr303</module>
+		<module>org.liveSense.misc.jcrom</module>
 		<module>org.liveSense.misc.image.codec.jpeg</module>
 		<module>org.liveSense.misc.javax.persistence</module>
 		<module>org.liveSense.scripting.jsp.taglib.json</module>

@@ -88,3 +88,6 @@
 [submodule "org.liveSense.launchpad"]
 	path = org.liveSense.launchpad
 	url = git://github.com/liveSense/org.liveSense.launchpad.git
+[submodule "org.liveSense.misc.jcrom"]
+	path = org.liveSense.misc.jcrom
+	url = git@github.com:liveSense/org.liveSense.misc.jcrom.git
