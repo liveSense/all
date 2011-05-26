@@ -12,8 +12,8 @@
 	<version>1.0.1-SNAPSHOT</version>
 	<name>liveSense Reactor build</name>
 	<modules>
-		<module>org.liveSense.auth.ldap</module>
 		<module>org.liveSense.parent</module>
+		<module>org.liveSense.auth.ldap</module>
 		<module>org.liveSense.core</module>
 		<module>org.liveSense.misc.sun.misc</module>
 		<module>org.liveSense.misc.configurationLoader</module>
