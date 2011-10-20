@@ -103,3 +103,6 @@
 [submodule "org.liveSense.misc.javax.xml-jre-1.6"]
 	path = org.liveSense.misc.javax.xml-jre-1.6
 	url = git@github.com:liveSense/org.liveSense.misc.javax.xml-jre-1.6.git
+[submodule "org.liveSense.service.report.jasper/org.liveSense.service.report.jasper"]
+	path = org.liveSense.service.report.jasper/org.liveSense.service.report.jasper
+	url = https://github.com/liveSense/org.liveSense.service.report.jasper
