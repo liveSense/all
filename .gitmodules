@@ -1,3 +1,111 @@
+[submodule "org.liveSense.parent"]
+	path = org.liveSense.parent
+	url = https://github.com/liveSense/org.liveSense.parent.git
+[submodule "org.liveSense.auth.ldap"]
+	path = org.liveSense.auth.ldap
+	url = https://github.com/liveSense/org.liveSense.auth.ldap.git
+[submodule "org.liveSense.core"]
+	path = org.liveSense.core
+	url = https://github.com/liveSense/org.liveSense.core.git
+[submodule "org.liveSense.misc.sun.misc"]
+	path = org.liveSense.misc.sun.misc
+	url = https://github.com/liveSense/org.liveSense.misc.sun.misc.git
+[submodule "org.liveSense.misc.configurationLoader"]
+	path = org.liveSense.misc.configurationLoader
+	url = https://github.com/liveSense/org.liveSense.misc.configurationLoader.git
+[submodule "org.liveSense.misc.queryBuilder"]
+	path = org.liveSense.misc.queryBuilder
+	url = https://github.com/liveSense/org.liveSense.misc.queryBuilder.git
+[submodule "org.liveSense.misc.i18n"]
+	path = org.liveSense.misc.i18n
+	url = https://github.com/liveSense/org.liveSense.misc.i18n.git
+[submodule "org.liveSense.misc.jsr303"]
+	path = org.liveSense.misc.jsr303
+	url = https://github.com/liveSense/org.liveSense.misc.jsr303.git
+[submodule "org.liveSense.misc.image.codec.jpeg"]
+	path = org.liveSense.misc.image.codec.jpeg
+	url = https://github.com/liveSense/org.liveSense.misc.image.codec.jpeg.git
+[submodule "org.liveSense.misc.javax.persistence"]
+	path = org.liveSense.misc.javax.persistence
+	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
+[submodule "org.liveSense.misc.gwt.jsr303"]
+	path = org.liveSense.misc.gwt.jsr303
+	url = https://github.com/liveSense/org.liveSense.misc.gwt.jsr303.git
+[submodule "org.liveSense.scripting.jsp.taglib.json"]
+	path = org.liveSense.scripting.jsp.taglib.json
+	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.json.git
+[submodule "org.liveSense.scripting.jsp.taglib.jstl"]
+	path = org.liveSense.scripting.jsp.taglib.jstl
+	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git
+[submodule "org.liveSense.jackrabbit.server.jdbc.mysql"]
+	path = org.liveSense.jackrabbit.server.jdbc.mysql
+	url = https://github.com/liveSense/org.liveSense.jackrabbit.server.jdbc.mysql.git
+[submodule "org.liveSense.servlet.gwtrpc"]
+	path = org.liveSense.servlet.gwtrpc
+	url = https://github.com/liveSense/org.liveSense.servlet.gwtrpc.git
+[submodule "org.liveSense.service.dataSourceProvider"]
+	path = org.liveSense.service.dataSourceProvider
+	url = https://github.com/liveSense/org.liveSense.service.dataSourceProvider.git
+[submodule "org.liveSense.framework.gxt"]
+	path = org.liveSense.framework.gxt
+	url = https://github.com/liveSense/org.liveSense.framework.gxt.git
+[submodule "org.liveSense.service.securityManager"]
+	path = org.liveSense.service.securityManager
+	url = https://github.com/liveSense/org.liveSense.service.securityManager.git
+[submodule "org.liveSense.service.activation"]
+	path = org.liveSense.service.activation
+	url = https://github.com/liveSense/org.liveSense.service.activation.git
+[submodule "org.liveSense.service.captcha"]
+	path = org.liveSense.service.captcha
+	url = https://github.com/liveSense/org.liveSense.service.captcha.git
+[submodule "org.liveSense.service.email"]
+	path = org.liveSense.service.email
+	url = https://github.com/liveSense/org.liveSense.service.email.git
+[submodule "org.liveSense.service.languageSelector"]
+	path = org.liveSense.service.languageSelector
+	url = https://github.com/liveSense/org.liveSense.service.languageSelector.git
+[submodule "org.liveSense.service.thumbnailGenerator"]
+	path = org.liveSense.service.thumbnailGenerator
+	url = https://github.com/liveSense/org.liveSense.service.thumbnailGenerator.git
+[submodule "org.liveSense.service.xssRemove"]
+	path = org.liveSense.service.xssRemove
+	url = https://github.com/liveSense/org.liveSense.service.xssRemove.git
+[submodule "org.liveSense.sample.configurationLoad"]
+	path = org.liveSense.sample.configurationLoad
+	url = https://github.com/liveSense/org.liveSense.sample.configurationLoad.git
+[submodule "org.liveSense.sample.gwt.notes"]
+	path = org.liveSense.sample.gwt.notes
+	url = https://github.com/liveSense/org.liveSense.sample.gwt.notes.git
+[submodule "org.liveSense.sample.simplePortal"]
+	path = org.liveSense.sample.simplePortal
+	url = https://github.com/liveSense/org.liveSense.sample.simplePortal.git
+[submodule "org.liveSense.content.initial"]
+	path = org.liveSense.content.initial
+	url = https://github.com/liveSense/org.liveSense.content.initial.git
+[submodule "org.liveSense.webconsole.branding"]
+	path = org.liveSense.webconsole.branding
+	url = https://github.com/liveSense/org.liveSense.webconsole.branding.git
+[submodule "org.liveSense.launchpad"]
+	path = org.liveSense.launchpad
+	url = https://github.com/liveSense/org.liveSense.launchpad.git
+[submodule "org.liveSense.misc.jcrom"]
+	path = org.liveSense.misc.jcrom
+	url = https://github.com/liveSense/org.liveSense.misc.jcrom.git
+[submodule "org.liveSense.misc.javax.xml-jre-1.6"]
+	path = org.liveSense.misc.javax.xml-jre-1.6
+	url = https://github.com/liveSense/org.liveSense.misc.javax.xml-jre-1.6.git
+[submodule "org.liveSense.framework.cxf"]
+	path = org.liveSense.framework.cxf
+	url = https://github.com/liveSense/org.liveSense.framework.cxf.git
+[submodule "org.liveSense.datasource.jdbc.mysql"]
+	path = org.liveSense.datasource.jdbc.mysql
+	url = https://github.com/liveSense/org.liveSense.datasource.jdbc.mysql.git
+[submodule "org.liveSense.datasource.jdbc.jaybird"]
+	path = org.liveSense.datasource.jdbc.jaybird
+	url = https://github.com/liveSense/org.liveSense.datasource.jdbc.jaybird.git
 [submodule "org.liveSense.service.report.jasper"]
 	path = org.liveSense.service.report.jasper
 	url = https://github.com/liveSense/org.liveSense.service.report.jasper.git
+[submodule "org.liveSense.reactor"]
+	path = org.liveSense.reactor
+	url = https://github.com/liveSense/org.liveSense.reactor.git
