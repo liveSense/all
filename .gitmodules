@@ -91,3 +91,15 @@
 [submodule "org.liveSense.misc.jcrom"]
 	path = org.liveSense.misc.jcrom
 	url = git://github.com/liveSense/org.liveSense.misc.jcrom.git
+[submodule "org.liveSense.datasource.jdbc.jaybird"]
+	path = org.liveSense.datasource.jdbc.jaybird
+	url = git@github.com:liveSense/org.liveSense.datasource.jdbc.jaybird.git
+[submodule "org.liveSense.datasource.jdbc.mysql"]
+	path = org.liveSense.datasource.jdbc.mysql
+	url = git@github.com:liveSense/org.liveSense.datasource.jdbc.mysql.git
+[submodule "org.liveSense.framework.cxf"]
+	path = org.liveSense.framework.cxf
+	url = git@github.com:liveSense/org.liveSense.framework.cxf.git
+[submodule "org.liveSense.misc.javax.xml-jre-1.6"]
+	path = org.liveSense.misc.javax.xml-jre-1.6
+	url = git@github.com:liveSense/org.liveSense.misc.javax.xml-jre-1.6.git
