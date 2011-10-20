@@ -18,6 +18,7 @@
 		<module>org.liveSense.misc.sun.misc</module>
 		<module>org.liveSense.misc.configurationLoader</module>
 		<module>org.liveSense.misc.queryBuilder</module>
+		<module>org.liveSense.misc.javax.xml-jre-1.6</module>
 		<module>org.liveSense.misc.gwt.jsr303</module>
 		<module>org.liveSense.misc.i18n</module>
 		<module>org.liveSense.misc.jsr303</module>
@@ -32,6 +33,7 @@
 		<module>org.liveSense.servlet.gwtrpc</module>
 		<module>org.liveSense.service.dataSourceProvider</module>
 		<module>org.liveSense.framework.gxt</module>
+		<module>org.liveSense.framework.cxf</module>
 		<module>org.liveSense.service.securityManager</module>
 		<module>org.liveSense.service.activation</module>
 		<module>org.liveSense.service.captcha</module>
@@ -39,7 +41,7 @@
 		<module>org.liveSense.service.languageSelector</module>
 		<module>org.liveSense.service.thumbnailGenerator</module>
 		<module>org.liveSense.service.xssRemove</module>
-		<!-- <module>../org.liveSense.service.uploadServlet</module> -->
+		<module>org.liveSense.service.report.jasper</module>
 		<module>org.liveSense.sample.configurationLoad</module>
 		<module>org.liveSense.sample.gwt.notes</module>
 		<module>org.liveSense.sample.simplePortal</module>
