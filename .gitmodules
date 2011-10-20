@@ -1,0 +1,3 @@
+[submodule "org.liveSense.service.report.jasper"]
+	path = org.liveSense.service.report.jasper
+	url = https://github.com/liveSense/org.liveSense.service.report.jasper.git
