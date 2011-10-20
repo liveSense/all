@@ -27,6 +27,8 @@
 		<module>org.liveSense.scripting.jsp.taglib.json</module>
 		<module>org.liveSense.scripting.jsp.taglib.jstl</module>
 		<module>org.liveSense.jackrabbit.server.jdbc.mysql</module>
+		<module>org.liveSense.datasource.jdbc.mysql</module>
+		<module>org.liveSense.datasource.jdbc.jaybird</module>
 		<module>org.liveSense.servlet.gwtrpc</module>
 		<module>org.liveSense.service.dataSourceProvider</module>
 		<module>org.liveSense.framework.gxt</module>
