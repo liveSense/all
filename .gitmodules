@@ -7,9 +7,9 @@
 [submodule "org.liveSense.core"]
 	path = org.liveSense.core
 	url = https://github.com/liveSense/org.liveSense.core.git
-[submodule "org.liveSense.misc.sun.misc"]
-	path = org.liveSense.misc.sun.misc
-	url = https://github.com/liveSense/org.liveSense.misc.sun.misc.git
+[submodule "org.liveSense.fragment.sun.misc"]
+	path = org.liveSense.fragment.sun.misc
+	url = https://github.com/liveSense/org.liveSense.fragment.sun.misc.git
 [submodule "org.liveSense.misc.configurationLoader"]
 	path = org.liveSense.misc.configurationLoader
 	url = https://github.com/liveSense/org.liveSense.misc.configurationLoader.git
@@ -22,12 +22,6 @@
 [submodule "org.liveSense.misc.jsr303"]
 	path = org.liveSense.misc.jsr303
 	url = https://github.com/liveSense/org.liveSense.misc.jsr303.git
-[submodule "org.liveSense.misc.image.codec.jpeg"]
-	path = org.liveSense.misc.image.codec.jpeg
-	url = https://github.com/liveSense/org.liveSense.misc.image.codec.jpeg.git
-[submodule "org.liveSense.misc.javax.persistence"]
-	path = org.liveSense.misc.javax.persistence
-	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
 [submodule "org.liveSense.misc.gwt.jsr303"]
 	path = org.liveSense.misc.gwt.jsr303
 	url = https://github.com/liveSense/org.liveSense.misc.gwt.jsr303.git
@@ -40,9 +34,6 @@
 [submodule "org.liveSense.jackrabbit.server.jdbc.mysql"]
 	path = org.liveSense.jackrabbit.server.jdbc.mysql
 	url = https://github.com/liveSense/org.liveSense.jackrabbit.server.jdbc.mysql.git
-[submodule "org.liveSense.servlet.gwtrpc"]
-	path = org.liveSense.servlet.gwtrpc
-	url = https://github.com/liveSense/org.liveSense.servlet.gwtrpc.git
 [submodule "org.liveSense.service.dataSourceProvider"]
 	path = org.liveSense.service.dataSourceProvider
 	url = https://github.com/liveSense/org.liveSense.service.dataSourceProvider.git
@@ -91,9 +82,6 @@
 [submodule "org.liveSense.misc.jcrom"]
 	path = org.liveSense.misc.jcrom
 	url = https://github.com/liveSense/org.liveSense.misc.jcrom.git
-[submodule "org.liveSense.misc.javax.xml-jre-1.6"]
-	path = org.liveSense.misc.javax.xml-jre-1.6
-	url = https://github.com/liveSense/org.liveSense.misc.javax.xml-jre-1.6.git
 [submodule "org.liveSense.framework.cxf"]
 	path = org.liveSense.framework.cxf
 	url = https://github.com/liveSense/org.liveSense.framework.cxf.git
@@ -109,3 +97,15 @@
 [submodule "org.liveSense.reactor"]
 	path = org.liveSense.reactor
 	url = https://github.com/liveSense/org.liveSense.reactor.git
+[submodule "org.liveSense.fragment.com.sun.image.codec.jpeg"]
+	path = org.liveSense.fragment.com.sun.image.codec.jpeg
+	url = https://github.com/liveSense/org.liveSense.fragment.com.sun.image.codec.jpeg.git
+[submodule "org.liveSense.fragment.javax.xml-jre-1.6"]
+	path = org.liveSense.fragment.javax.xml-jre-1.6
+	url = https://github.com/liveSense/org.liveSense.fragment.javax.xml-jre-1.6.git
+[submodule "org.liveSense.framework.gwt"]
+	path = org.liveSense.framework.gwt
+	url = https://github.com/liveSense/org.liveSense.servlet.gwtrpc.git
+[submodule "org.liveSense.dist"]
+	path = org.liveSense.dist
+	url = git@github.com:liveSense/org.liveSense.dist.git
