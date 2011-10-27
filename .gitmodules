@@ -105,10 +105,10 @@
 	url = https://github.com/liveSense/org.liveSense.fragment.javax.xml-jre-1.6.git
 [submodule "org.liveSense.framework.gwt"]
 	path = org.liveSense.framework.gwt
-	url = https://github.com/liveSense/org.liveSense.servlet.gwtrpc.git
+	url = https://github.com/liveSense/org.liveSense.framework.gwt.git
 [submodule "org.liveSense.dist"]
 	path = org.liveSense.dist
-	url = git@github.com:liveSense/org.liveSense.dist.git
+	url = https://github.com/liveSense/org.liveSense.dist.git
 [submodule "org.liveSense.misc.javax.persistence"]
 	path = org.liveSense.misc.javax.persistence
 	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
