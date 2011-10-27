@@ -109,3 +109,6 @@
 [submodule "org.liveSense.dist"]
 	path = org.liveSense.dist
 	url = git@github.com:liveSense/org.liveSense.dist.git
+[submodule "org.liveSense.misc.javax.persistence"]
+	path = org.liveSense.misc.javax.persistence
+	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
