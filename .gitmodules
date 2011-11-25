@@ -112,3 +112,9 @@
 [submodule "org.liveSense.misc.javax.persistence"]
 	path = org.liveSense.misc.javax.persistence
 	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
+[submodule "org.liveSense.misc.log.lilithappender"]
+	path = org.liveSense.misc.log.lilithappender
+	url = https://github.com/liveSense/org.liveSense.misc.log.lilithappender.git
+[submodule "org.liveSense.misc.log.lilithappender.config.default"]
+	path = org.liveSense.misc.log.lilithappender.config.default
+	url = https://github.com/liveSense/org.liveSense.misc.log.lilithappender.config.default.git
