@@ -118,3 +118,6 @@
 [submodule "org.liveSense.misc.log.lilithappender.config.default"]
 	path = org.liveSense.misc.log.lilithappender.config.default
 	url = https://github.com/liveSense/org.liveSense.misc.log.lilithappender.config.default.git
+[submodule "org.liveSense.service.jcr.importexport"]
+	path = org.liveSense.service.jcr.importexport
+	url = https://github.com/liveSense/org.liveSense.service.jcr.importexport.git
