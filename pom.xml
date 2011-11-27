@@ -50,6 +50,7 @@
 		<module>org.liveSense.service.thumbnailGenerator</module>
 		<module>org.liveSense.service.xssRemove</module>
 		<module>org.liveSense.service.report.jasper</module>
+   		<module>org.liveSense.service.jcr.importexport</module>
 		<module>org.liveSense.sample.configurationLoad</module>
 		<module>org.liveSense.sample.gwt.notes</module>
 		<module>org.liveSense.sample.simplePortal</module>
