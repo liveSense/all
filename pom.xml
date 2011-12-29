@@ -27,6 +27,7 @@
 		<module>org.liveSense.misc.javax.persistence</module>
 		<module>org.liveSense.misc.configurationLoader</module>
 		<module>org.liveSense.misc.queryBuilder</module>
+		<module>org.liveSense.misc.queryBuilder.gwt</module>
 		<module>org.liveSense.misc.gwt.jsr303</module>
 		<module>org.liveSense.misc.i18n</module>
 		<module>org.liveSense.misc.jsr303</module>
