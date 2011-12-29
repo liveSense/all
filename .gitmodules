@@ -123,4 +123,4 @@
 	url = https://github.com/liveSense/org.liveSense.service.jcr.importexport.git
 [submodule "org.liveSense.misc.queryBuilder.gwt"]
 	path = org.liveSense.misc.queryBuilder.gwt
-	url = https://github.com/liveSense/
+	url = https://github.com/liveSense/org.liveSense.misc.queryBuilder.gwt
