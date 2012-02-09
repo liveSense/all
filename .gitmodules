@@ -124,3 +124,6 @@
 [submodule "org.liveSense.misc.queryBuilder.gwt"]
 	path = org.liveSense.misc.queryBuilder.gwt
 	url = https://github.com/liveSense/org.liveSense.misc.queryBuilder.gwt
+[submodule "org.liveSense.service.solr"]
+	path = org.liveSense.service.solr
+	url = /Project/liveSense/org.liveSense.service.solr

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<schema name="locations" version="1.1">
+  <types>
+       <fieldtype name="string"  class="solr.StrField" sortMissingLast="true" omitNorms="true">
+        </fieldtype>
+
+        <fieldtype name="ngrams" class="solr.TextField">
+            <analyzer>
+                <tokenizer class="solr.LowerCaseTokenizerFactory"/>
+                <filter class="solr.EdgeNGramFilterFactory" minGramSize="4" maxGramSize="15" side="front"/>
+            </analyzer>
+        </fieldtype>
+  </types>
+
+ <fields>   
+  <!-- general -->
+  <field name="id"      type="string"   indexed="true"  stored="true"  multiValued="false" required="true"/>
+  <field name="country"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="postalCode"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="city"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="cityPart"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="street"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="streetType"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="fromNumber"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="mark1"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="toNumber"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="mark2"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="area"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="region"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+  <field name="streetTopology"    type="string"   indexed="true"  stored="true"  multiValued="false" />
+
+
+  <!-- NGram indexed -->
+  <field name="nCountry"    type="ngrams"   indexed="true"  stored="false"  multiValued="true" />
+  <field name="nStreet"    type="ngrams"   indexed="true"  stored="false"  multiValued="true" />
+  <field name="nCity"    type="ngrams"   indexed="true"  stored="false"  multiValued="true" />
+
+
+ </fields>
+
+  <copyField source="city" dest="nCity"/>
+   <copyField source="country" dest="nCountry"/>
+   <copyField source="street" dest="nStreet"/>
+
+ <!-- field to use to determine and enforce document uniqueness. -->
+ <uniqueKey>id</uniqueKey>
+
+ <!-- field for the QueryParser to use when an explicit fieldname is absent -->
+ <defaultSearchField>city</defaultSearchField>
+
+ <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
+ <solrQueryParser defaultOperator="OR"/>
+</schema>
+

@@ -1,0 +1,10 @@
+h1. Solr Bundle for liveSense OSGi
+
+h2. Rational
+
+  This bundle ofers Solr functionaliry in embeded form to an OSGi Container. It listens to the OSGi container for events indicating that
+  a resource has been updated and performs an indexing operation based on that update.
+  
+  It also provides a search interface.
+  
+  This project derivated from Sakai Nakumara project (https://github.com/ieb/solr) 
