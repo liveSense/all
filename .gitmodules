@@ -127,3 +127,6 @@
 [submodule "org.liveSense.service.solr"]
 	path = org.liveSense.service.solr
 	url = https://github.com/liveSense/org.liveSense.service.solr.git
+[submodule "org.liveSense.service.solr.configurationLoader"]
+	path = org.liveSense.service.solr.configurationLoader
+	url = https://git@github.com:liveSense/org.liveSense.service.solr.configurationLoader.git
