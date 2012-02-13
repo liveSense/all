@@ -54,7 +54,6 @@
    		<module>org.liveSense.service.jcr.importexport</module>
 		<module>org.liveSense.service.solr</module>
 		<module>org.liveSense.service.solr.configurationLoader</module>
-      		<module>org.liveSense.service.jcr.importexport</module>
 		<module>org.liveSense.sample.configurationLoad</module>
 		<module>org.liveSense.sample.gwt.notes</module>
 		<module>org.liveSense.sample.simplePortal</module>
