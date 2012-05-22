@@ -123,7 +123,7 @@
 	url = https://github.com/liveSense/org.liveSense.service.solr.configurationLoader.git
 [submodule "org.liveSense.jdbc.jaybird"]
 	path = org.liveSense.jdbc.jaybird
-	url = git@github.com:liveSense/org.liveSense.jdbc.jaybird.git
+	url = https://github.com/liveSense/org.liveSense.jdbc.jaybird.git
 [submodule "org.liveSense.jdbc.mysql"]
 	path = org.liveSense.jdbc.mysql
-	url = git@github.com:liveSense/org.liveSense.jdbc.mysql.git
+	url = https://github.com/liveSense/org.liveSense.jdbc.mysql.git
