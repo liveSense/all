@@ -31,9 +31,6 @@
 [submodule "org.liveSense.scripting.jsp.taglib.jstl"]
 	path = org.liveSense.scripting.jsp.taglib.jstl
 	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git
-[submodule "org.liveSense.jackrabbit.server.jdbc.mysql"]
-	path = org.liveSense.jackrabbit.server.jdbc.mysql
-	url = https://github.com/liveSense/org.liveSense.jackrabbit.server.jdbc.mysql.git
 [submodule "org.liveSense.service.dataSourceProvider"]
 	path = org.liveSense.service.dataSourceProvider
 	url = https://github.com/liveSense/org.liveSense.service.dataSourceProvider.git
@@ -85,12 +82,6 @@
 [submodule "org.liveSense.framework.cxf"]
 	path = org.liveSense.framework.cxf
 	url = https://github.com/liveSense/org.liveSense.framework.cxf.git
-[submodule "org.liveSense.datasource.jdbc.mysql"]
-	path = org.liveSense.datasource.jdbc.mysql
-	url = https://github.com/liveSense/org.liveSense.datasource.jdbc.mysql.git
-[submodule "org.liveSense.datasource.jdbc.jaybird"]
-	path = org.liveSense.datasource.jdbc.jaybird
-	url = https://github.com/liveSense/org.liveSense.datasource.jdbc.jaybird.git
 [submodule "org.liveSense.service.report.jasper"]
 	path = org.liveSense.service.report.jasper
 	url = https://github.com/liveSense/org.liveSense.service.report.jasper.git
@@ -130,3 +121,9 @@
 [submodule "org.liveSense.service.solr.configurationLoader"]
 	path = org.liveSense.service.solr.configurationLoader
 	url = https://github.com/liveSense/org.liveSense.service.solr.configurationLoader.git
+[submodule "org.liveSense.jdbc.jaybird"]
+	path = org.liveSense.jdbc.jaybird
+	url = git@github.com:liveSense/org.liveSense.jdbc.jaybird.git
+[submodule "org.liveSense.jdbc.mysql"]
+	path = org.liveSense.jdbc.mysql
+	url = git@github.com:liveSense/org.liveSense.jdbc.mysql.git
