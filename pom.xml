@@ -24,6 +24,7 @@
 		<module>org.liveSense.fragment.com.sun.image.codec.jpeg</module>
 		<module>org.liveSense.fragment.javax.xml-jre-1.6</module>
 		<module>org.liveSense.fragment.javax.jws-jre-1.6</module>
+		<module>org.liveSense.fragment.javax.activation-jre-1.6</module>
 		<module>org.liveSense.fragment.sun.misc</module>
 		<module>org.liveSense.fragment.sun.security</module>
 		<module>org.liveSense.misc.javax.persistence</module>
