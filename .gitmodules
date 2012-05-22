@@ -127,3 +127,9 @@
 [submodule "org.liveSense.jdbc.mysql"]
 	path = org.liveSense.jdbc.mysql
 	url = https://github.com/liveSense/org.liveSense.jdbc.mysql.git
+[submodule "org.liveSense.fragment.sun.security"]
+	path = org.liveSense.fragment.sun.security
+	url = https://github.com/liveSense/org.liveSense.fragment.sun.security.git
+[submodule "org.liveSense.fragment.javax.jws-jre-1.6"]
+	path = org.liveSense.fragment.javax.jws-jre-1.6
+	url = https://github.com/liveSense/org.liveSense.fragment.javax.jws-jre-1.6.git
