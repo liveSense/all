@@ -136,3 +136,6 @@
 [submodule "org.liveSense.fragment.javax.activation-jre-1.6"]
 	path = org.liveSense.fragment.javax.activation-jre-1.6
 	url = https://github.com/liveSense/org.liveSense.fragment.javax.activation-jre-1.6.git
+[submodule "org.liveSense.karaf"]
+	path = org.liveSense.karaf
+	url = https://github.com/liveSense/org.liveSense.karaf.git
