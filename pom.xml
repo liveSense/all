@@ -62,5 +62,6 @@
 		<module>org.liveSense.content.initial</module>
 		<module>org.liveSense.webconsole.branding</module>
 		<module>org.liveSense.launchpad</module>
+		<module>org.liveSense.karaf</module>
 	</modules>
 </project>
