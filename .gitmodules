@@ -103,12 +103,6 @@
 [submodule "org.liveSense.misc.javax.persistence"]
 	path = org.liveSense.misc.javax.persistence
 	url = https://github.com/liveSense/org.liveSense.misc.javax.persistence.git
-[submodule "org.liveSense.misc.log.lilithappender"]
-	path = org.liveSense.misc.log.lilithappender
-	url = https://github.com/liveSense/org.liveSense.misc.log.lilithappender.git
-[submodule "org.liveSense.misc.log.lilithappender.config.default"]
-	path = org.liveSense.misc.log.lilithappender.config.default
-	url = https://github.com/liveSense/org.liveSense.misc.log.lilithappender.config.default.git
 [submodule "org.liveSense.service.jcr.importexport"]
 	path = org.liveSense.service.jcr.importexport
 	url = https://github.com/liveSense/org.liveSense.service.jcr.importexport.git
@@ -139,3 +133,9 @@
 [submodule "org.liveSense.karaf"]
 	path = org.liveSense.karaf
 	url = https://github.com/liveSense/org.liveSense.karaf.git
+[submodule "org.liveSense.misc.log.config.default"]
+	path = org.liveSense.misc.log.config.default
+	url = https://github.com/liveSense/org.liveSense.misc.log.config.default.git
+[submodule "org.liveSense.misc.log.lilith.core"]
+	path = org.liveSense.misc.log.lilith.core
+	url = https://github.com/liveSense/org.liveSense.misc.core.lilith.git

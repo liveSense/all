@@ -35,8 +35,8 @@
 		<module>org.liveSense.misc.i18n</module>
 		<module>org.liveSense.misc.jsr303</module>
 		<module>org.liveSense.misc.jcrom</module>
-		<module>org.liveSense.misc.log.lilithappender</module>
-		<module>org.liveSense.misc.log.lilithappender.config.default</module>
+		<module>org.liveSense.misc.log.lilith.core</module>
+		<module>org.liveSense.misc.log.config.default</module>
 		<module>org.liveSense.scripting.jsp.taglib.json</module>
 		<module>org.liveSense.scripting.jsp.taglib.jstl</module>
 		<module>org.liveSense.jdbc.mysql</module>
