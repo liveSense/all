@@ -138,4 +138,4 @@
 	url = https://github.com/liveSense/org.liveSense.misc.log.config.default.git
 [submodule "org.liveSense.misc.log.lilith.core"]
 	path = org.liveSense.misc.log.lilith.core
-	url = https://github.com/liveSense/org.liveSense.misc.core.lilith.git
+	url = https://github.com/liveSense/org.liveSense.misc.log.lilith.core.git
