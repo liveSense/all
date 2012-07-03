@@ -139,3 +139,9 @@
 [submodule "org.liveSense.misc.log.lilith.core"]
 	path = org.liveSense.misc.log.lilith.core
 	url = https://github.com/liveSense/org.liveSense.misc.log.lilith.core.git
+[submodule "org.liveSense.framework.apacheds"]
+	path = org.liveSense.framework.apacheds
+	url = https://github.com/liveSense/org.liveSense.framework.apacheds.git
+[submodule "org.liveSense.jdbc.h2"]
+	path = org.liveSense.jdbc.h2
+	url = https://github.com/liveSense/org.liveSense.jdbc.h2.git
