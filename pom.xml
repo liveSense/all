@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-	    <groupId>org.liveSense</groupId>
+	    <groupId>com.github.livesense</groupId>
 	    <artifactId>org.liveSense.parent</artifactId>
 	    <version>1-SNAPSHOT</version>
         </parent>
@@ -13,7 +13,7 @@
 		<url>https://github.com/liveSense/org.liveSense.reactor</url>
 	</scm>
 	<packaging>pom</packaging>
-	<groupId>org.liveSense</groupId>
+	<groupId>com.github.livesense</groupId>
 	<artifactId>org.livesense.reactor</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<name>liveSense Reactor build</name>
