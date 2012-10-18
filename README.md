@@ -25,18 +25,21 @@ To build you have to download
 	git clone https://github.com/liveSense/all.git
 
 * Run the following git commands in the directory where the source is checked out
-	git submodule init
-	git submodule update
-	git submodule foreach git pull origin master
+
+		git submodule init
+		git submodule update
+		git submodule foreach git pull origin master
 
 * Install the parent project:
-	cd parent
-	mvn clean install
-	cd ..
+
+		cd parent
+		mvn clean install
+		cd ..
 * Run reactor install
-	mvn clean install
+
+		mvn clean install
 
 * Run the engine
-	./liveSense-launchpad.command
+		./liveSense-launchpad.command
 
 * After you start, you can explore it in [http://localhost:8080](http://localhost:8080)
