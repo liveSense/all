@@ -1,12 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-	    <groupId>com.github.livesense</groupId>
-	    <artifactId>org.liveSense.parent</artifactId>
-	    <version>1-SNAPSHOT</version>
-        </parent>
-                      
 	<scm>
 		<connection>scm:git:git://github.com/liveSense/org.liveSense.reactor.git</connection>
 		<developerConnection>scm:git:git://github.com/liveSense/org.liveSense.reactor.git</developerConnection>
@@ -46,21 +39,31 @@
 		<module>org.liveSense.framework.gwt</module>
 		<module>org.liveSense.framework.gxt</module>
 		<module>org.liveSense.framework.cxf</module>
+		<module>org.liveSense.framework.jasperreports</module>
+        <module>org.liveSense.framework.lucene</module>
+		<module>org.liveSense.framework.solr</module>
 		<module>org.liveSense.service.dataSourceProvider</module>
 		<module>org.liveSense.service.securityManager</module>
 		<module>org.liveSense.service.activation</module>
 		<module>org.liveSense.service.captcha</module>
+		<module>org.liveSense.service.cxf</module>
 		<module>org.liveSense.service.email</module>
+		<module>org.liveSense.service.gwt</module>
 		<module>org.liveSense.service.languageSelector</module>
 		<module>org.liveSense.service.thumbnailGenerator</module>
 		<module>org.liveSense.service.xssRemove</module>
+		<module>org.liveSense.service.markdown</module>
 		<module>org.liveSense.service.report.jasper</module>
-   		<module>org.liveSense.service.jcr.importexport</module>
+		<module>org.liveSense.service.jcr.importexport</module>
 		<module>org.liveSense.service.solr</module>
 		<module>org.liveSense.service.solr.configurationLoader</module>
 		<module>org.liveSense.sample.configurationLoad</module>
 		<module>org.liveSense.sample.gwt.notes</module>
+        <module>org.liveSense.sample.gwt.notesRequestFactory</module>
+		<module>org.liveSense.sample.markdown</module>
 		<module>org.liveSense.sample.simplePortal</module>
+        <module>org.liveSense.sample.solr</module>
+        <module>org.liveSense.sample.webServiceServlet</module>
 		<module>org.liveSense.content.initial</module>
 		<module>org.liveSense.webconsole.branding</module>
 		<module>org.liveSense.launchpad</module>
