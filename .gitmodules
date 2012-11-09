@@ -145,3 +145,33 @@
 [submodule "org.liveSense.jdbc.h2"]
 	path = org.liveSense.jdbc.h2
 	url = https://github.com/liveSense/org.liveSense.jdbc.h2.git
+[submodule "org.liveSense.service.markdown"]
+	path = org.liveSense.service.markdown
+	url = https://github.com/liveSense/org.liveSense.service.markdown.git
+[submodule "org.liveSense.service.gwt"]
+	path = org.liveSense.service.gwt
+	url = https://github.com/liveSense/org.liveSense.service.gwt.git
+[submodule "org.liveSense.service.cxf"]
+	path = org.liveSense.service.cxf
+	url = https://github.com/liveSense/org.liveSense.service.cxf.git
+[submodule "org.liveSense.framework.jasperreports"]
+	path = org.liveSense.framework.jasperreports
+	url = https://github.com/liveSense/org.liveSense.framework.jasperreports.git
+[submodule "org.liveSense.framework.lucene"]
+	path = org.liveSense.framework.lucene
+	url = https://github.com/liveSense/org.liveSense.framework.lucene.git
+[submodule "org.liveSense.framework.solr"]
+	path = org.liveSense.framework.solr
+	url = https://github.com/liveSense/org.liveSense.framework.solr.git
+[submodule "org.liveSense.sample.solr"]
+	path = org.liveSense.sample.solr
+	url = https://github.com/liveSense/org.liveSense.sample.solr.git
+[submodule "org.liveSense.sample.webServiceServlet"]
+	path = org.liveSense.sample.webServiceServlet
+	url = https://github.com/liveSense/org.liveSense.sample.webServiceServlet.git
+[submodule "org.liveSense.sample.markdown"]
+	path = org.liveSense.sample.markdown
+	url = https://github.com/liveSense/org.liveSense.sample.markdown.git
+[submodule "org.liveSense.sample.gwt.notesRequestFactory"]
+	path = org.liveSense.sample.gwt.notesRequestFactory
+	url = https://github.com/liveSense/org.liveSense.sample.gwt.notesRequestFactory.git
