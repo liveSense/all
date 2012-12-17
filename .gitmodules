@@ -178,3 +178,6 @@
 [submodule "org.liveSense.fragment.jackrabbit.server.ddl"]
 	path = org.liveSense.fragment.jackrabbit.server.ddl
 	url = https://github.com/liveSense/org.liveSense.fragment.jackrabbit.server.ddl.git
+[submodule "org.liveSense.jcr.explorer"]
+	path = org.liveSense.jcr.explorer
+	url = https://github.com/liveSense/org.liveSense.jcr.explorer.git
