@@ -40,7 +40,10 @@ LightCyanBG=`echo -e "\033[1;46m"`
 BASEDIR=$(dirname $0)
 
 cd $BASEDIR/org.liveSense.launchpad/target
-java -Xms128m -Xmx1024m -XX:MaxPermSize=256m -Dproject.root=$BASEDIR -jar org.liveSense.launchpad-1.0.1-SNAPSHOT-standalone.jar -p 8080 | sed  \
+if [ -f ./launchpad.log ]; then rm ./launchpad.log; fi
+nohup java -Xms128m -Xmx1024m -XX:MaxPermSize=256m -Dproject.root=$BASEDIR -jar org.liveSense.launchpad-1.0.2-SNAPSHOT-standalone.jar start -p 8080 > ./launchpad.log &
+
+tail -f  ./launchpad.log | sed  \
 -e "s/\(^.\{24\}INFO..\)\(.*\)\(.\-.BundleEvent.\)\(.*\)/${BlackBG}${LightGray}\1${LightCyan}\2${LightGray}\3${RedBG}${Yellow}\4${BlackBG}${BOLD_OFF}/g" \
 -e "s/\(^.\{24\}INFO  \)\(.*\)\( \- Service \)\(\[.*\]\) \([a-zA-Z0-9]*\) \([a-zA-Z0-9]*\)/${BlackBG}${LightGray}\1${LightCyan}\2${LightGray}\3${Yellow}\4 ${White}\5 ${RedBG}${Yellow}\6${BlackBG}${BOLD_OFF}/g" \
 -e "s/\(^.\{24\}INFO..GWTREQUESTFACTORY.-.>>>*\)/${BlackBG}${Pink}\1${BlackBG}${BOLD_OFF}/g" \
@@ -51,5 +54,7 @@ java -Xms128m -Xmx1024m -XX:MaxPermSize=256m -Dproject.root=$BASEDIR -jar org.li
 -e "s/\(^.\{24\}WARN.*\)/${BlackBG}${Yellow}\1${BlackBG}${BOLD_OFF}/g" \
 -e "s/\(^.\{24\}INFO.*\)/${BlackBG}${White}\1${BlackBG}${BOLD_OFF}/g" \
 -e "s/\(^.*\)/${LightGray}${UNDERLINE_OFF}\1/g"
+
+java  -jar org.liveSense.launchpad-1.0.2-SNAPSHOT-standalone.jar stop 
 
 read -p "Press [Enter] key to close"
