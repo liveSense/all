@@ -181,3 +181,6 @@
 [submodule "org.liveSense.jcr.explorer"]
 	path = org.liveSense.jcr.explorer
 	url = https://github.com/liveSense/org.liveSense.jcr.explorer.git
+[submodule "org.liveSense.service.apacheds"]
+	path = org.liveSense.service.apacheds
+	url = https://github.com/liveSense/org.liveSense.service.apacheds.git

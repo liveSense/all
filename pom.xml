@@ -46,6 +46,7 @@
 		<module>org.liveSense.service.dataSourceProvider</module>
 		<module>org.liveSense.service.securityManager</module>
 		<module>org.liveSense.service.activation</module>
+		<module>org.liveSense.service.apacheds</module>
 		<module>org.liveSense.service.captcha</module>
 		<module>org.liveSense.service.cxf</module>
 		<module>org.liveSense.service.email</module>
