@@ -47,9 +47,11 @@
 		<module>org.liveSense.service.securityManager</module>
 		<module>org.liveSense.service.activation</module>
 		<module>org.liveSense.service.apacheds</module>
+   		<module>org.liveSense.service.apacheds.configurationLoader</module>
 		<module>org.liveSense.service.captcha</module>
 		<module>org.liveSense.service.cxf</module>
 		<module>org.liveSense.service.email</module>
+		<module>org.liveSense.service.guacamole</module>
 		<module>org.liveSense.service.gwt</module>
 		<module>org.liveSense.service.languageSelector</module>
 		<module>org.liveSense.service.thumbnailGenerator</module>
