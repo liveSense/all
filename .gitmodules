@@ -190,3 +190,15 @@
 [submodule "org.liveSense.service.apacheds.configurationLoader"]
 	path = org.liveSense.service.apacheds.configurationLoader
 	url = https://github.com/liveSense/org.liveSense.service.apacheds.configurationLoader.git
+[submodule "org.liveSense.framework.jodreports"]
+	path = org.liveSense.framework.jodreports
+	url = https://github.com/liveSense/org.liveSense.framework.jodreports.git
+[submodule "org.liveSense.framework.jodconverter"]
+	path = org.liveSense.framework.jodconverter
+	url = https://github.com/liveSense/org.liveSense.framework.jodconverter.git
+[submodule "org.liveSense.features.branding"]
+	path = org.liveSense.features.branding
+	url = https://github.com/liveSense/org.liveSense.features.branding.git
+[submodule "org.liveSense.framework.fitnesse"]
+	path = org.liveSense.framework.fitnesse
+	url = https://github.com/liveSense/org.liveSense.framework.fitnesse.git
