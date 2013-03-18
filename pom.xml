@@ -41,6 +41,9 @@
 		<module>org.liveSense.framework.gxt</module>
 		<module>org.liveSense.framework.cxf</module>
 		<module>org.liveSense.framework.jasperreports</module>
+		<module>org.liveSense.framework.jodconverter</module>
+   		<module>org.liveSense.framework.jodreports</module>
+   		<module>org.liveSense.framework.fitnesse</module>
         <module>org.liveSense.framework.lucene</module>
 		<module>org.liveSense.framework.solr</module>
 		<module>org.liveSense.service.dataSourceProvider</module>
@@ -71,6 +74,7 @@
         <module>org.liveSense.sample.webServiceServlet</module>
 		<module>org.liveSense.content.initial</module>
 		<module>org.liveSense.webconsole.branding</module>
+		<module>org.liveSense.features.branding</module>
 		<module>org.liveSense.launchpad</module>
         <module>org.liveSense.dist</module>
 
