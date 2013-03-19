@@ -15,7 +15,7 @@
 		<module>org.liveSense.auth.ldap</module>
 		<module>org.liveSense.core</module>
 		<module>org.liveSense.fragment.com.sun.image.codec.jpeg</module>
-		<module>org.liveSense.fragment.jackrabbit.server.ddl</module>
+		<module>org.liveSense.fragment.jackrabbit.server.jaybird.ddl</module>
 		<module>org.liveSense.fragment.javax.xml-jre-1.6</module>
 		<module>org.liveSense.fragment.javax.jws-jre-1.6</module>
 		<module>org.liveSense.fragment.javax.activation-jre-1.6</module>
