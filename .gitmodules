@@ -175,9 +175,9 @@
 [submodule "org.liveSense.sample.gwt.notesRequestFactory"]
 	path = org.liveSense.sample.gwt.notesRequestFactory
 	url = https://github.com/liveSense/org.liveSense.sample.gwt.notesRequestFactory.git
-[submodule "org.liveSense.fragment.jackrabbit.server.ddl"]
-	path = org.liveSense.fragment.jackrabbit.server.ddl
-	url = https://github.com/liveSense/org.liveSense.fragment.jackrabbit.server.ddl.git
+[submodule "org.liveSense.fragment.jackrabbit.server.jaybird.ddl"]
+	path = org.liveSense.fragment.jackrabbit.server.jaybird.ddl
+	url = https://github.com/liveSense/org.liveSense.fragment.jackrabbit.server.jaybird.ddl.git
 [submodule "org.liveSense.jcr.explorer"]
 	path = org.liveSense.jcr.explorer
 	url = https://github.com/liveSense/org.liveSense.jcr.explorer.git
