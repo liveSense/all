@@ -46,6 +46,7 @@
    		<module>org.liveSense.framework.fitnesse</module>
         <module>org.liveSense.framework.lucene</module>
 		<module>org.liveSense.framework.solr</module>
+		<module>org.liveSense.framework.wro4j</module>
 		<module>org.liveSense.service.dataSourceProvider</module>
 		<module>org.liveSense.service.securityManager</module>
 		<module>org.liveSense.service.activation</module>
@@ -65,6 +66,7 @@
 		<module>org.liveSense.service.solr</module>
 		<module>org.liveSense.service.solr.configurationLoader</module>
         <module>org.liveSense.jcr.explorer</module>
+        <module>org.liveSense.jcr.restexplorer</module>
 		<module>org.liveSense.sample.configurationLoad</module>
 		<module>org.liveSense.sample.gwt.notes</module>
         <module>org.liveSense.sample.gwt.notesRequestFactory</module>
