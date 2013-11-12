@@ -29,11 +29,11 @@ from xml.dom.minidom import parseString
 PROJECT='org.liveSense'
 PROJECTDIR="../"
 
-WIKISERVER = "http://localhost/"
+WIKISERVER = "http://localhost:8080/"
 WIKIINDEXPHP = "mediawiki/index.php"
 WIKIAPI    = "mediawiki/api.php"
-WIKIUSER="yourusername"
-WIKIPASSWORD="yourpassword"
+WIKIUSER="admin"
+WIKIPASSWORD="tomato"
 WIKIID=1
 WIKITITLEPREFIX="liveSense";
 WIKIPACKAGELISTPAGE="liveSensePackages"
@@ -49,7 +49,7 @@ MARKDOWNLINKS=[
 CONSOLEUSER = "admin"
 CONSOLEPASSWORD = "admin"
 CONSOLEHOST= "localhost"
-CONSOLEPORT = 8080
+CONSOLEPORT = 8181
 
 colorModel= ["yellow", "green", "\"/blues3/3\"",  "\"/blues3/2\"", "\"/blues3/1\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\""]
 
@@ -149,7 +149,7 @@ def readBundlesFromConsole(host, port, user, passwd):
 	headers = {'Authorization' : 'Basic ' + string.strip(base64.encodestring(user + ':' + passwd))}
 
 	bundles = {};
-	conn = httplib.HTTPConnection(host, 8080)
+	conn = httplib.HTTPConnection(host, CONSOLEPORT)
 	conn.request("GET", "/system/console/bundles.json", "", headers)
 	res = conn.getresponse()
 
@@ -161,7 +161,7 @@ def readBundlesFromConsole(host, port, user, passwd):
 	
 	# Reading the sub package info
 	for id in bundles.keys() : 
-		conn = httplib.HTTPConnection(host, 8080)
+		conn = httplib.HTTPConnection(host, CONSOLEPORT)
 		conn.request("GET", "/system/console/bundles/"+str(id)+".json", "", headers)
 		res = conn.getresponse()
 		if res.status == 200 :
@@ -177,9 +177,13 @@ def readBundlesFromConsole(host, port, user, passwd):
 				if (obj['key'] == 'Imported Packages') :
 					for v in obj['value'] :
 						if 	v != 'None' :
-							m = re.match(r'(?P<package>.*),version\=(?P<version>.*) from <a href=\'.*\'>(?P<bundle>.*) \((?P<id>.*)\)', v)
-							importBundleId.add(int(m.group('id')))
-							importBundleData.append({'id' : int(m.group('id')), 'package' : m.group('package'), 'bundle' : m.group('bundle'), 'version' : m.group('version')})
+							print(v)
+							m = re.match(r'(?P<package>.*)(?P<vstr>,version\=)(?P<version>.*) from <a href=\'.*\'>(?P<bundle>.*) \((?P<id>.*)\)', v)
+							if m :
+								print(m.group)
+								print(m.group('id'))
+								importBundleId.add(int(m.group('id')))
+								importBundleData.append({'id' : int(m.group('id')), 'package' : m.group('package'), 'bundle' : m.group('bundle'), 'version' : m.group('version')})
 				if (obj['key'] == 'Exported Packages') :
 					for v in obj['value'] :
 						if 	v != '-' :
@@ -198,8 +202,15 @@ def readBundlesFromConsole(host, port, user, passwd):
 			pprint("Error: "+str(res.status))
 	return bundles	
 
+def replaceAriesGrace(bundle):
+	return bundle['symbolicName'].replace(";blueprint.graceperiod:=false","")
+
+def replaceSingleton(inp):
+	return inp.replace(";singleton=true","")
+
+
 def umlName(bundle):
-	return bundle['symbolicName'].replace(".","_").replace("-","_")
+	return replaceSingleton(replaceAriesGrace(bundle).replace(".","_").replace("-","_"))
 
 def writeDot(bundles, projectdesc, dot=StringIO.StringIO(), colorModel= ["yellow", "green", "\"/blues3/3\"",  "\"/blues3/2\"", "\"/blues3/1\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\"", "\"/greys3/2\""]):
 	dot.write("digraph {\n\tnode[shape=record, fontname=\"Arial\", fontsize=8]")
@@ -207,7 +218,7 @@ def writeDot(bundles, projectdesc, dot=StringIO.StringIO(), colorModel= ["yellow
 	# Write Nodes
 	for key in dotnodes.keys():
 		for obj in dotnodes[key]:
-			dot.write("node [style=filled, fillcolor="+colorModel[key]+", label= "+"\"{"+obj['name']+" | "+obj['symbolicName']+"("+obj['version']+")}\"] "+umlName(obj)+";\n")
+			dot.write("node [style=filled, fillcolor="+colorModel[key]+", label= "+"\"{"+obj['name']+" | "+replaceSingleton(replaceAriesGrace(obj))+"("+obj['version']+")}\"] "+umlName(obj)+";\n")
 
 	# Write connections
 	for key in dotconnections.keys():
@@ -335,14 +346,15 @@ for filename in os.listdir(PROJECTDIR):
 		subprojectlistnames.append(filename)
 
 # Login WikiMedia and store login token in cookie
-cj = cookielib.LWPCookieJar()
-opener = poster.streaminghttp.register_openers()
-opener.add_handler(urllib2.HTTPCookieProcessor(cj))
-wikiLogin(opener,WIKISERVER, WIKIAPI,WIKIUSER,WIKIPASSWORD)
+#cj = cookielib.LWPCookieJar()
+#opener = poster.streaminghttp.register_openers()
+#opener.add_handler(urllib2.HTTPCookieProcessor(cj))
+#wikiLogin(opener,WIKISERVER, WIKIAPI,WIKIUSER,WIKIPASSWORD)
 
 # Adding metadatas
 for projectdesc in subprojectlist : 
 	# Reading POM.XML-s description
+	print "Reading "+projectdesc['symbolicName']
 	if not os.path.exists(PROJECTDIR+projectdesc['symbolicName']+"/pom.xml"):
 		projectdesc['description'] = '<UNDEFINED>'
 		projectdesc['name'] = '<UNDEFINED>'
@@ -352,8 +364,8 @@ for projectdesc in subprojectlist :
 			
 	file = open(PROJECTDIR+projectdesc['symbolicName']+'/pom.xml','r')
 	data = file.read()
-	file.close()
-
+	file.close();
+	
 	dom = parseString(data)
 	projectdesc['description'] = getDomSingleElement('description','<UNDEFINED>')
 	projectdesc['name'] = getDomSingleElement('name','<UNDEFINED>')
@@ -371,7 +383,7 @@ for projectdesc in subprojectlist :
 		travelDependencies(bundles=bundles, id=projectdesc['osgiid'], nodes=dotnodes, connections=dotconnections)
 	
 	# Generate wiki
-	wiki = writeWiki(bundles=bundles, projectdesc=projectdesc, links=WIKILINKS, wiki = StringIO.StringIO())
+#	wiki = writeWiki(bundles=bundles, projectdesc=projectdesc, links=WIKILINKS, wiki = StringIO.StringIO())
 	markdown = writeGithubMarkdown(bundles=bundles, projectdesc=projectdesc, links=MARKDOWNLINKS, markdown = StringIO.StringIO())
 
 	if projectdesc.has_key('dependencies') and len(projectdesc['dependencies'])>0:
@@ -402,8 +414,8 @@ for projectdesc in subprojectlist :
 		else:
 			print "No SVG out: "+projectdesc['symbolicName']
 
-		wiki.write("== OSGI Dependency graph ==\n");
-		wiki.write("<graphviz format='svg'>"+dot.getvalue()+"</graphwiz>")	
+#		wiki.write("== OSGI Dependency graph ==\n");
+#		wiki.write("<graphviz format='svg'>"+dot.getvalue()+"</graphwiz>")	
 		dot.close
 			
 
@@ -412,6 +424,6 @@ for projectdesc in subprojectlist :
 	readmefile.close
 
 	# Post Wiki
-	wikiEditApiPhp(opener, WIKISERVER, WIKIAPI, projectdesc['wikiname'] , wiki.getvalue())
+#	wikiEditApiPhp(opener, WIKISERVER, WIKIAPI, projectdesc['wikiname'] , wiki.getvalue())
 	markdown.close
-	wiki.close
+#	wiki.close

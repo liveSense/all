@@ -1,6 +1,3 @@
-[submodule "org.liveSense.parent"]
-	path = org.liveSense.parent
-	url = https://github.com/liveSense/org.liveSense.parent.git
 [submodule "org.liveSense.auth.ldap"]
 	path = org.liveSense.auth.ldap
 	url = https://github.com/liveSense/org.liveSense.auth.ldap.git
@@ -85,9 +82,6 @@
 [submodule "org.liveSense.service.report.jasper"]
 	path = org.liveSense.service.report.jasper
 	url = https://github.com/liveSense/org.liveSense.service.report.jasper.git
-[submodule "org.liveSense.reactor"]
-	path = org.liveSense.reactor
-	url = https://github.com/liveSense/org.liveSense.reactor.git
 [submodule "org.liveSense.fragment.com.sun.image.codec.jpeg"]
 	path = org.liveSense.fragment.com.sun.image.codec.jpeg
 	url = https://github.com/liveSense/org.liveSense.fragment.com.sun.image.codec.jpeg.git
