@@ -3,5 +3,6 @@ before_install:
   - git submodule update --init --recursive
 jdk:
   - openjdk6
-script: "mvn clean install"
-script: "mvn clean install -P reactor"
+script: 
+  - mvn clean install
+  - mvn clean install -P reactor
