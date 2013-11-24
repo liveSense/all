@@ -4,6 +4,4 @@ before_install:
 jdk:
   - openjdk6
 script: 
-  - mvn dependency:go-offline
-  - mvn clean install
   - mvn clean install -P reactor -Dmaven.test.redirectTestOutputToFile=true
