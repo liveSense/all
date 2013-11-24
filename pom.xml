@@ -70,7 +70,7 @@
 		<sling.discovery.impl.version>1.0.0</sling.discovery.impl.version>
 		<sling.discovery.standalone.version>1.0.0</sling.discovery.standalone.version>
 		<sling.discovery.support.version>1.0.0</sling.discovery.support.version>
-		<sling.engine.version>2.2.8</sling.engine.version>
+        <sling.engine.version>2.2.8</sling.engine.version>
 		<sling.event.version>3.1.4</sling.event.version>
 		<sling.event.version>3.2.0</sling.event.version>
 		<sling.extensions.explorer.version>1.0.3-SNAPSHOT</sling.extensions.explorer.version>
@@ -115,7 +115,7 @@
 		<sling.servlets.post.version>2.3.2</sling.servlets.post.version>
 		<sling.servlets.resolver.version>2.2.4</sling.servlets.resolver.version>
 		<sling.settings.version>1.3.0</sling.settings.version>
-		<liveSense.dist.version>1.0.0-SNAPSHOT</liveSense.dist.version>
+        <liveSense.dist.version>1.0.0-SNAPSHOT</liveSense.dist.version>
 		<liveSense.jcr.explorer.version>1.0.0-SNAPSHOT</liveSense.jcr.explorer.version>
 		<liveSense.jcr.restexplorer.version>1.0.0-SNAPSHOT</liveSense.jcr.restexplorer.version>
 		<liveSense.auth.ldap.version>1.0.0-SNAPSHOT</liveSense.auth.ldap.version>
@@ -125,6 +125,7 @@
 		<liveSense.jdbc.mysql.version>5.1.18_1-SNAPSHOT</liveSense.jdbc.mysql.version>
 		<liveSense.misc.log.lilith.core.version>${lilith.version}_1-SNAPSHOT</liveSense.misc.log.lilith.core.version>
 		<liveSense.misc.log.config.default.version>1.0.0-SNAPSHOT</liveSense.misc.log.config.default.version>
+        <liveSense.fragment.customloginpage.version>1.0.0-SNAPSHOT</liveSense.fragment.customloginpage.version>
 		<liveSense.fragment.sun.misc.version>1.0.1-SNAPSHOT</liveSense.fragment.sun.misc.version>
 		<liveSense.fragment.sun.security.version>1.0.1-SNAPSHOT</liveSense.fragment.sun.security.version>
 		<liveSense.fragment.javax.jws-jre-1.6.version>1.0.0-SNAPSHOT</liveSense.fragment.javax.jws-jre-1.6.version>
@@ -148,7 +149,7 @@
 		<liveSense.launchpad.version>1.0.2-SNAPSHOT</liveSense.launchpad.version>
 		<liveSense.jackrabbit.server.version>2.1.1-SNAPSHOT_1.0.0-SNAPSHOT</liveSense.jackrabbit.server.version>
 		<liveSense.jcr.explorer.version>1.0.0-SNAPSHOT</liveSense.jcr.explorer.version>
-		<liveSense.misc.i18n.version>1.0.0-SNAPSHOT</liveSense.misc.i18n.version>
+        <liveSense.misc.i18n.version>1.0.0-SNAPSHOT</liveSense.misc.i18n.version>
 		<liveSense.misc.javax.persistence.version>1.0.1-1.0-SNAPSHOT</liveSense.misc.javax.persistence.version>
 		<liveSense.misc.jcrom.version>1.0.0-SNAPSHOT</liveSense.misc.jcrom.version>
 		<liveSense.misc.jsr303.version>1.0.0-1.0.0.GA-SNAPSHOT</liveSense.misc.jsr303.version>
@@ -170,11 +171,11 @@
 		<liveSense.service.languageSelector.version>1.0.1-SNAPSHOT</liveSense.service.languageSelector.version>
 		<liveSense.service.markdown.version>1.0.0-SNAPSHOT</liveSense.service.markdown.version>
 		<liveSense.service.report.jasper.version>1.0.0-SNAPSHOT</liveSense.service.report.jasper.version>
-        <liveSense.service.jcr.importexport.version>1.0.0-SNAPSHOT</liveSense.service.jcr.importexport.version>
+        <liveSense.service.jcr.importexport.version>1.0.1-SNAPSHOT</liveSense.service.jcr.importexport.version>
 		<liveSense.service.securityManager.version>1.0.1-SNAPSHOT</liveSense.service.securityManager.version>
 		<liveSense.service.thumbnailGenerator.version>1.0.1-SNAPSHOT</liveSense.service.thumbnailGenerator.version>
 		<liveSense.service.xssRemove.version>1.0.1-SNAPSHOT</liveSense.service.xssRemove.version>
-		<liveSense.content.initial.version>1.0.1-SNAPSHOT</liveSense.content.initial.version>
+		<liveSense.content.initial.version>1.0.2-SNAPSHOT</liveSense.content.initial.version>
 		<liveSense.sample.gwt.notes.version>1.0.1-SNAPSHOT</liveSense.sample.gwt.notes.version>
 		<liveSense.sample.gwt.notesRequestFactory.version>1.0.0-SNAPSHOT</liveSense.sample.gwt.notesRequestFactory.version>
 		<liveSense.sample.markdown.version>1.0.0-SNAPSHOT</liveSense.sample.markdown.version>
@@ -712,6 +713,7 @@
                 <module>org.liveSense.fragment.javax.activation-jre-1.6</module>
                 <module>org.liveSense.fragment.sun.misc</module>
                 <module>org.liveSense.fragment.sun.security</module>
+                <module>org.liveSense.fragment.customloginpage</module>
                 <module>org.liveSense.misc.javax.persistence</module>
                 <module>org.liveSense.misc.configurationLoader</module>
                 <module>org.liveSense.misc.queryBuilder</module>
@@ -767,11 +769,9 @@
                 <module>org.liveSense.sample.webServiceServlet</module>
                 <module>org.liveSense.content.initial</module>
                 <module>org.liveSense.webconsole.branding</module>
-                <module>org.liveSense.features.branding</module>
                 <module>org.liveSense.launchpad</module>
                 <module>org.liveSense.dist</module>
-                
-                <!--		<module>org.liveSense.karaf</module> -->
+                <module>org.liveSense.karaf</module>
             </modules>
         </profile>
         
