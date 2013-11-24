@@ -202,3 +202,6 @@
 [submodule "org.liveSense.framework.wro4j"]
 	path = org.liveSense.framework.wro4j
 	url = https://github.com/liveSense/org.liveSense.framework.wro4j.git
+[submodule "org.liveSense.fragment.customloginpage"]
+	path = org.liveSense.fragment.customloginpage
+	url = https://github.com/liveSense/org.liveSense.fragment.customloginpage.git
