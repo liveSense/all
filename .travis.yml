@@ -4,4 +4,8 @@ before_install:
 jdk:
   - openjdk6
 script: 
+  - mvn clean install -q -Dmaven.test.redirectTestOutputToFile=true
   - mvn clean install -P reactor  -q -Dmaven.test.redirectTestOutputToFile=true
+  - mvn clean install -P karaf -q -Dmaven.test.redirectTestOutputToFile=true
+  - mvn clean install -P launchpad -q -Dmaven.test.redirectTestOutputToFile=true
+  - mvn clean install -P dist -q -Dmaven.test.redirectTestOutputToFile=true

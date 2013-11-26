@@ -107,25 +107,48 @@ To build you have to download
 
 # How can I download source code?
 
-	git clone https://github.com/liveSense/all.git
+		git clone https://github.com/liveSense/all.git
 
 * Run the following git commands in the directory where the source is checked out
-
+		cd all
 		git submodule init
 		git submodule update
 		git submodule foreach git pull origin master
 
 * Install the parent project:
 
-		cd parent
 		mvn clean install
 		cd ..
+
 * Run reactor install
 
-		mvn clean install
+		mvn clean install -P reactor
 
-* Run the engine
+* Creates launchpad bundle
+
+		mvn clean install -P launchpad
+
+* Creates karaf bundle
+
+		mvn clean install -P karaf
+
+* Creates dist bundle (installer)
+
+		mvn clean install -P dist
+
+* Run the engine (with karaf)
+
+	Unpack the zip: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.1-SNAPSHOT.zip
+	
+	or
+	
+	Unpack the tar.gz: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.1-SNAPSHOT.tar.gz
+	
+	And in the bin directory you can start livesense.bat or livesense
+	
+	After you start, you can view a console. Type help or read more in [http://karaf.apache.org/manual/latest-2.3.x/users-guide/web-console.html](http://karaf.apache.org/manual/latest-2.3.x/users-guide/web-console.html)]
+* Run the engine (with launchpad)
 
 		./liveSense-launchpad.command
-
-* After you start, you can explore it in [http://localhost:8080](http://localhost:8080)
+		
+	After you start, you can explore it in [http://localhost:8080](http://localhost:8080)]
