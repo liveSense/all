@@ -5,7 +5,7 @@ before_install:
 env:
   global:
     - secure: "ZFw5chHaskXtIqTtUnTwKa2JYQMV2/Td48ltYmHv/ze41G25Wxn+7soREmXTnT+MAxtCM+J/iptWTu1WzP8ejcBv7G0RKa+oVRnjoZyYG0+haTPKAWlSusI/w7pxlq+xZmO+zcrWbh7iHJJs7R+NWo3uaStlwjxs4Q1QCMCkc9k="
-    - secure: "KboxJWTubZeyIWw3QBoNAWbTkHT/+JGUnRO4utA8yje9hdsHU5M7XZebQwHEqhE6ggAg3K7FhHByG9r0CeGT44StbkKSEbFL/YyJ7zTG/hpRn/zJkh/b4VxDphVKyBUjJHrRC6TjlXIV3aqDjnYuaIMq6m6ii2Gw17FCx2Kphis="
+    - secure: "djG0Hcp1InFW4GAqDiKvs1+iqYcMos48ZiCFmxnM01ubZBCmNCVEMJVhjGiN5ZmjQvr2NJXqDvPpz6hPMM6WitHfLTaZrpoNIjx0agW5W+usaAONzALIa9qPN9dGr44g87UTaUdhcZJJBcauX2gQ4/cqywv3BOaJxtwwWJeM1AY="
 
 jdk:
   - openjdk6
