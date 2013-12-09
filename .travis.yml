@@ -1,16 +1,14 @@
 language: java
 before_install:
-    - curl https://raw.github.com/liveSense/all/master/travis-settings.xml --create-dirs -o target/travis/settings.xml
-
+- curl https://raw.github.com/liveSense/all/master/travis-settings.xml --create-dirs
+  -o target/travis/settings.xml
 env:
   global:
-    - secure: "ZFw5chHaskXtIqTtUnTwKa2JYQMV2/Td48ltYmHv/ze41G25Wxn+7soREmXTnT+MAxtCM+J/iptWTu1WzP8ejcBv7G0RKa+oVRnjoZyYG0+haTPKAWlSusI/w7pxlq+xZmO+zcrWbh7iHJJs7R+NWo3uaStlwjxs4Q1QCMCkc9k="
-    - secure: "djG0Hcp1InFW4GAqDiKvs1+iqYcMos48ZiCFmxnM01ubZBCmNCVEMJVhjGiN5ZmjQvr2NJXqDvPpz6hPMM6WitHfLTaZrpoNIjx0agW5W+usaAONzALIa9qPN9dGr44g87UTaUdhcZJJBcauX2gQ4/cqywv3BOaJxtwwWJeM1AY="
-
+  - secure: IXLC+6GUCD9lsjoS7TerHBlQsihezB6MCfP9F7lpHF9E3eknPXUCVY8hUkNYnufzGzkUId/8d/7qafrs5neSj/KVlpTLArgRiu/GdeQgPgNnt/+miQ8adkhSM66ZBtYPq+kX5MAqdkd9+Cx4WafYDpzidywKkPfwuc9Cr7qyl/4=
+  - secure: JIkAYe4aYvH32wM7UtkpmGHbWB3D+Cbg6sDpzxAwEkBqEdYKgRSJZKBhXRXOyOlQs444/mGnYZYVcxIgCOUyVDCGoX61T1D8bSeH6fraTsurJg/w9PUhfqQyAeVItjfFj3rcrh0gVZTwDxJ2IpaTOhaIq5nr9wgl/9iYNgdw9D8=
 jdk:
-  - openjdk6
-
-script: 
-  - mvn deploy -P karaf -q --settings target/travis/settings.xml
-  - mvn deploy -P launchpad -q --settings target/travis/settings.xml
-  - mvn deploy -P dist -q --settings target/travis/settings.xml
+- openjdk6
+script:
+- mvn deploy -P karaf -q --settings target/travis/settings.xml
+- mvn deploy -P launchpad -q --settings target/travis/settings.xml
+- mvn deploy -P dist -q --settings target/travis/settings.xml
