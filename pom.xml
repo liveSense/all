@@ -157,7 +157,7 @@
 		<liveSense.misc.queryBuilder.version>1.0.0-SNAPSHOT</liveSense.misc.queryBuilder.version>
 		<liveSense.misc.queryBuilder.gwt.version>1.0.0-SNAPSHOT</liveSense.misc.queryBuilder.gwt.version>
 		<liveSense.scripting.jsp.taglib.jstl.version>1.0.1-1.1.2-SNAPSHOT</liveSense.scripting.jsp.taglib.jstl.version>
-		<liveSense.scripting.jsp.taglib.json.version>1.0.1-SNAPSHOT</liveSense.scripting.jsp.taglib.json.version>
+		<liveSense.scripting.jsp.taglib.jsonatg.version>1.0.1-SNAPSHOT</liveSense.scripting.jsp.taglib.jsonatg.version>
 		<liveSense.scripting.ruby.version>${ruby.version}_1-SNAPSHOT</liveSense.scripting.ruby.version>
 		<liveSense.service.apacheds.version>1.0.0-SNAPSHOT</liveSense.service.apacheds.version>
 		<liveSense.service.apacheds.configurationLoader.version>1.0.0-SNAPSHOT</liveSense.service.apacheds.configurationLoader.version>
@@ -724,7 +724,7 @@
                 <module>org.liveSense.misc.jcrom</module>
                 <module>org.liveSense.misc.log.lilith.core</module>
                 <module>org.liveSense.misc.log.config.default</module>
-                <module>org.liveSense.scripting.jsp.taglib.json</module>
+                <module>org.liveSense.scripting.jsp.taglib.jsonatg</module>
                 <module>org.liveSense.scripting.jsp.taglib.jstl</module>
                 <module>org.liveSense.jdbc.mysql</module>
                 <module>org.liveSense.jdbc.jaybird</module>
@@ -1300,8 +1300,8 @@
 			</dependency>
 			<dependency>
 				<groupId>com.github.livesense</groupId>
-				<artifactId>org.liveSense.scripting.jsp.taglib.json</artifactId>
-				<version>${liveSense.scripting.jsp.taglib.json.version}</version>
+				<artifactId>org.liveSense.scripting.jsp.taglib.jsonatg</artifactId>
+				<version>${liveSense.scripting.jsp.taglib.jsonatg.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.livesense</groupId>

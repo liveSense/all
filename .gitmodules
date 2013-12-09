@@ -202,9 +202,6 @@
 [submodule "org.liveSense.fragment.customloginpage"]
 	path = org.liveSense.fragment.customloginpage
 	url = https://github.com/liveSense/org.liveSense.fragment.customloginpage.git
-[submodule "org.liveSense.scripting.jsp.taglib.json/org.liveSense.scripting.jsp.taglib.json"]
-	path = org.liveSense.scripting.jsp.taglib.json/org.liveSense.scripting.jsp.taglib.json
-	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.json.git
-[submodule "org.liveSense.scripting.jsp.taglib.json"]
-	path = org.liveSense.scripting.jsp.taglib.json
-	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.json.git
+[submodule "org.liveSense.scripting.jsp.taglib.jsonatg"]
+	path = org.liveSense.scripting.jsp.taglib.jsonatg
+	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jsonatg.git
