@@ -28,16 +28,16 @@
 		<liveSense.version>1.0.1-SNAPSHOT</liveSense.version>
 		<gwt.version>2.5.0</gwt.version>
 		<gxt.version>3.0.1</gxt.version>
-		<jackrabbit.version>2.4.2</jackrabbit.version>
-		<cxf.version>2.6.3</cxf.version>
+		<jackrabbit.version>2.7.2</jackrabbit.version>
+		<cxf.version>2.7.7</cxf.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<logback.version>1.0.3</logback.version>
 		<lilith.version>0.9.42.1</lilith.version>
 		<sulky.version>0.9.15</sulky.version>
 		<solr.version>4.0.0</solr.version>
-		<spring.version>3.1.2.RELEASE</spring.version>
+		<spring.version>3.2.4.RELEASE</spring.version>
 		<activiti.version>5.8</activiti.version>
-		<karaf.version>3.0.0.RC1</karaf.version>
+		<karaf.version>3.0.0</karaf.version>
 		<jasper.version>4.5.0</jasper.version>
 		<apacheds.version>2.0.0-M9</apacheds.version>
 		<apacheds.api.version>1.0.0-M14</apacheds.api.version>
@@ -51,32 +51,49 @@
 		<jodreports.version>2.4.0</jodreports.version>
 		<wro4j.version>1.6.3</wro4j.version>
 		<ruby.version>1.7.3</ruby.version>
-		<sling.adapter.version>2.1.0</sling.adapter.version>
+		
+        <!-- TODO
+         
+            Apache Sling Resource Inventory 0.5.0
+            Apache Sling JMX Resource Provider 0.6.0
+            Apache Sling Resource-Based Discovery Service 1.0.2
+            Apache Sling Testing Utilities 2.0.16
+            Apache Sling Health Check Tools:
+                org.apache.sling.hc.core-1.0.6,
+                org.apache.sling.hc.it-1.0.6,
+                org.apache.sling.hc.jmx-1.0.6,
+                org.apache.sling.hc.samples-1.0.6,
+                org.apache.sling.hc.support-1.0.6,
+                org.apache.sling.hc.webconsole-1.0.6,
+                org.apache.sling.junit.healthcheck-1.0.6
+         
+         -->
+        <sling.adapter.version>2.1.0</sling.adapter.version>
 		<sling.api.version>2.4.2</sling.api.version>
-		<sling.auth.core.version>1.1.2</sling.auth.core.version>
+		<sling.auth.core.version>1.1.4</sling.auth.core.version>
 		<sling.auth.form.version>1.0.4</sling.auth.form.version>
 		<sling.auth.openid.version>1.0.2</sling.auth.openid.version>
 		<sling.auth.selector.version>1.0.4</sling.auth.selector.version>
 		<sling.bundleresource.impl.version>2.1.2</sling.bundleresource.impl.version>
 		<sling.commons.classloader.version>1.3.0</sling.commons.classloader.version>
 		<sling.commons.json.version>2.0.6</sling.commons.json.version>
-		<sling.commons.log.version>3.0.0</sling.commons.log.version>
+		<sling.commons.log.version>3.0.2</sling.commons.log.version>
 		<sling.commons.logservice.version>1.0.2</sling.commons.logservice.version>
 		<sling.commons.mime.version>2.1.4</sling.commons.mime.version>
 		<sling.commons.osgi.version>2.2.0</sling.commons.osgi.version>
-		<sling.commons.scheduler.version>2.3.4</sling.commons.scheduler.version>
-		<sling.commons.threads.version>3.1.0</sling.commons.threads.version>
+		<sling.commons.scheduler.version>2.4.2</sling.commons.scheduler.version>
+		<sling.commons.threads.version>3.2.0</sling.commons.threads.version>
 		<sling.discovery.api.version>1.0.0</sling.discovery.api.version>
 		<sling.discovery.impl.version>1.0.0</sling.discovery.impl.version>
 		<sling.discovery.standalone.version>1.0.0</sling.discovery.standalone.version>
 		<sling.discovery.support.version>1.0.0</sling.discovery.support.version>
-        <sling.engine.version>2.2.8</sling.engine.version>
+        <sling.engine.version>2.2.10</sling.engine.version>
 		<sling.event.version>3.1.4</sling.event.version>
-		<sling.event.version>3.2.0</sling.event.version>
+		<sling.event.version>3.3.0</sling.event.version>
 		<sling.extensions.explorer.version>1.0.3-SNAPSHOT</sling.extensions.explorer.version>
 		<sling.extensions.groovy.version>1.0.0-SNAPSHOT</sling.extensions.groovy.version>
 		<sling.extensions.threaddump.version>0.2.2</sling.extensions.threaddump.version>
-		<sling.extensions.webconsolesecurityprovider.version>1.0.0</sling.extensions.webconsolesecurityprovider.version>
+		<sling.extensions.webconsolesecurityprovider.version>1.1.2</sling.extensions.webconsolesecurityprovider.version>
 		<sling.fragment.activation.version>1.0.2</sling.fragment.activation.version>
 		<sling.fragment.transaction.version>1.0.0</sling.fragment.transaction.version>
 		<sling.fragment.ws.version>1.0.2</sling.fragment.ws.version>
@@ -93,7 +110,7 @@
 		<sling.jcr.base.version>2.1.2</sling.jcr.base.version>
 		<sling.jcr.classloader.version>3.2.0</sling.jcr.classloader.version>
 		<sling.jcr.contentloader.version>2.1.6</sling.jcr.contentloader.version>
-		<sling.jcr.davex.version>1.1.0</sling.jcr.davex.version>
+		<sling.jcr.davex.version>1.2.0</sling.jcr.davex.version>
 		<sling.jcr.jackrabbit.accessmanager.version>2.1.1-SNAPSHOT</sling.jcr.jackrabbit.accessmanager.version>
 		<sling.jcr.jackrabbit.server.version>2.1.2</sling.jcr.jackrabbit.server.version>
 		<sling.jcr.jackrabbit.usermanager.version>2.2.0</sling.jcr.jackrabbit.usermanager.version>
@@ -101,7 +118,7 @@
 		<sling.jcr.registration.version>0.0.1-SNAPSHOT</sling.jcr.registration.version>
 		<sling.jcr.resource.version>2.2.8</sling.jcr.resource.version>
 		<sling.jcr.webconsole.version>1.0.0</sling.jcr.webconsole.version>
-		<sling.jcr.webdav.version>2.1.2</sling.jcr.webdav.version>
+		<sling.jcr.webdav.version>2.2.0</sling.jcr.webdav.version>
 		<sling.launchpad.api.version>1.1.0</sling.launchpad.api.version>
 		<sling.launchpad.installer.version>1.1.2</sling.launchpad.installer.version>
 		<sling.resourceresolver.version>1.0.6</sling.resourceresolver.version>
@@ -109,7 +126,7 @@
 		<sling.scripting.core.version>2.0.24</sling.scripting.core.version>
 		<sling.scripting.freemarker.version>2.0.0-SNAPSHOT</sling.scripting.freemarker.version>
 		<sling.scripting.javascript.version>2.0.12</sling.scripting.javascript.version>
-		<sling.scripting.jsp.taglib.version>2.1.8</sling.scripting.jsp.taglib.version>
+		<sling.scripting.jsp.taglib.version>2.2.0</sling.scripting.jsp.taglib.version>
 		<sling.scripting.jsp.version>2.0.28</sling.scripting.jsp.version>
 		<sling.servlets.get.version>2.1.4</sling.servlets.get.version>
 		<sling.servlets.post.version>2.3.2</sling.servlets.post.version>
@@ -512,7 +529,7 @@
 				<plugin>
 					<groupId>org.apache.sling</groupId>
 					<artifactId>maven-jspc-plugin</artifactId>
-					<version>2.0.4-incubator</version>
+					<version>2.0.8</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.sling</groupId>
