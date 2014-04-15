@@ -4,7 +4,7 @@
 	<groupId>com.github.livesense</groupId>
 	<artifactId>org.liveSense.parent</artifactId>
 	<packaging>pom</packaging>
-	<version>2-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/all.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/all.git</developerConnection>
@@ -29,7 +29,7 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 	<properties>
-		<liveSense.version>1.0.1-SNAPSHOT</liveSense.version>
+		<liveSense.version>1.0.3-SNAPSHOT</liveSense.version>
 		<gwt.version>2.5.0</gwt.version>
 		<gxt.version>3.0.1</gxt.version>
 		<jackrabbit.version>2.7.2</jackrabbit.version>
@@ -136,77 +136,78 @@
 		<sling.servlets.post.version>2.3.2</sling.servlets.post.version>
 		<sling.servlets.resolver.version>2.2.4</sling.servlets.resolver.version>
 		<sling.settings.version>1.3.0</sling.settings.version>
-        <liveSense.dist.version>1.0.0-SNAPSHOT</liveSense.dist.version>
-		<liveSense.jcr.explorer.version>1.0.0-SNAPSHOT</liveSense.jcr.explorer.version>
-		<liveSense.jcr.restexplorer.version>1.0.0-SNAPSHOT</liveSense.jcr.restexplorer.version>
-		<liveSense.auth.ldap.version>1.0.0-SNAPSHOT</liveSense.auth.ldap.version>
-		<liveSense.config.ldap.version>1.0.0-SNAPSHOT</liveSense.config.ldap.version>
-		<liveSense.jdbc.h2.version>1.3.166_1-SNAPSHOT</liveSense.jdbc.h2.version>
-		<liveSense.jdbc.jaybird.version>2.2.0_1-SNAPSHOT</liveSense.jdbc.jaybird.version>
-		<liveSense.jdbc.mysql.version>5.1.18_1-SNAPSHOT</liveSense.jdbc.mysql.version>
-		<liveSense.misc.log.lilith.core.version>${lilith.version}_1-SNAPSHOT</liveSense.misc.log.lilith.core.version>
-		<liveSense.misc.log.config.default.version>1.0.0-SNAPSHOT</liveSense.misc.log.config.default.version>
-        <liveSense.fragment.customloginpage.version>1.0.0-SNAPSHOT</liveSense.fragment.customloginpage.version>
-		<liveSense.fragment.sun.misc.version>1.0.1-SNAPSHOT</liveSense.fragment.sun.misc.version>
-		<liveSense.fragment.sun.security.version>1.0.1-SNAPSHOT</liveSense.fragment.sun.security.version>
-		<liveSense.fragment.javax.jws-jre-1.6.version>1.0.0-SNAPSHOT</liveSense.fragment.javax.jws-jre-1.6.version>
-		<liveSense.fragment.javax.xml-jre-1.6.version>1.0.0-SNAPSHOT</liveSense.fragment.javax.xml-jre-1.6.version>
-		<liveSense.fragment.jackrabbit.server.jaybird.ddl.version>1.0.0-SNAPSHOT</liveSense.fragment.jackrabbit.server.jaybird.ddl.version>
-		<liveSense.fragment.javax.activation-jre-1.6.version>1.0.0-SNAPSHOT</liveSense.fragment.javax.activation-jre-1.6.version>
-		<liveSense.webconsole.branding.version>1.0.1-SNAPSHOT</liveSense.webconsole.branding.version>
-		<liveSense.features.branding.version>1.0.0-SNAPSHOT</liveSense.features.branding.version>
-		<liveSense.core.version>1.0.1-SNAPSHOT</liveSense.core.version>
-		<liveSense.framework.apacheds.version>${apacheds.version}_1-SNAPSHOT</liveSense.framework.apacheds.version>
-		<liveSense.framework.cxf.version>${cxf.version}_1-SNAPSHOT</liveSense.framework.cxf.version>
-		<liveSense.framework.gwt.version>${gwt.version}_1-SNAPSHOT</liveSense.framework.gwt.version>
-		<liveSense.framework.gxt.version>${gxt.version}_1-SNAPSHOT</liveSense.framework.gxt.version>
-		<liveSense.framework.fitnesse.version>${fitnesse.version}_1-SNAPSHOT</liveSense.framework.fitnesse.version>
-		<liveSense.framework.lucene.version>${lucene.version}_1-SNAPSHOT</liveSense.framework.lucene.version>
-		<liveSense.framework.jasperreports.version>${jasper.version}_1-SNAPSHOT</liveSense.framework.jasperreports.version>
-		<liveSense.framework.solr.version>${solr.version}_1-SNAPSHOT</liveSense.framework.solr.version>
-		<liveSense.framework.wro4j.version>${wro4j.version}_1-SNAPSHOT</liveSense.framework.wro4j.version>
-		<liveSense.framework.jodconverter.version>${jodconverter.version}_1-SNAPSHOT</liveSense.framework.jodconverter.version>
-		<liveSense.framework.jodreports.version>${jodreports.version}_1-SNAPSHOT</liveSense.framework.jodreports.version>
-		<liveSense.launchpad.version>1.0.2-SNAPSHOT</liveSense.launchpad.version>
-		<liveSense.jackrabbit.server.version>2.1.1-SNAPSHOT_1.0.0-SNAPSHOT</liveSense.jackrabbit.server.version>
-		<liveSense.jcr.explorer.version>1.0.0-SNAPSHOT</liveSense.jcr.explorer.version>
-        <liveSense.misc.i18n.version>1.0.0-SNAPSHOT</liveSense.misc.i18n.version>
-		<liveSense.misc.javax.persistence.version>1.0.1-1.0-SNAPSHOT</liveSense.misc.javax.persistence.version>
-		<liveSense.misc.jcrom.version>1.0.0-SNAPSHOT</liveSense.misc.jcrom.version>
-		<liveSense.misc.jsr303.version>1.0.0-1.0.0.GA-SNAPSHOT</liveSense.misc.jsr303.version>
-		<liveSense.misc.gwt.jsr303.version>1.0.0-SNAPSHOT</liveSense.misc.gwt.jsr303.version>
-		<liveSense.misc.queryBuilder.version>1.0.0-SNAPSHOT</liveSense.misc.queryBuilder.version>
-		<liveSense.misc.queryBuilder.gwt.version>1.0.0-SNAPSHOT</liveSense.misc.queryBuilder.gwt.version>
-		<liveSense.scripting.jsp.taglib.jstl.version>1.0.1-1.1.2-SNAPSHOT</liveSense.scripting.jsp.taglib.jstl.version>
-		<liveSense.scripting.jsp.taglib.jsonatg.version>1.0.1-SNAPSHOT</liveSense.scripting.jsp.taglib.jsonatg.version>
-		<liveSense.scripting.ruby.version>${ruby.version}_1-SNAPSHOT</liveSense.scripting.ruby.version>
-		<liveSense.service.apacheds.version>1.0.0-SNAPSHOT</liveSense.service.apacheds.version>
-		<liveSense.service.apacheds.configurationLoader.version>1.0.0-SNAPSHOT</liveSense.service.apacheds.configurationLoader.version>
-		<liveSense.service.activation.version>1.0.1-SNAPSHOT</liveSense.service.activation.version>
-		<liveSense.service.captcha.version>1.0.1-SNAPSHOT</liveSense.service.captcha.version>
-		<liveSense.service.cxf.version>1.0.0-SNAPSHOT</liveSense.service.cxf.version>
-		<liveSense.service.dataSourceProvider.version>1.0.0-SNAPSHOT</liveSense.service.dataSourceProvider.version>
-		<liveSense.service.email.version>1.0.1-SNAPSHOT</liveSense.service.email.version>
-		<liveSense.service.guacamole.version>1.0.0-SNAPSHOT</liveSense.service.guacamole.version>
-		<liveSense.service.gwt.version>1.0.0-SNAPSHOT</liveSense.service.gwt.version>
-		<liveSense.service.languageSelector.version>1.0.1-SNAPSHOT</liveSense.service.languageSelector.version>
-		<liveSense.service.markdown.version>1.0.0-SNAPSHOT</liveSense.service.markdown.version>
-		<liveSense.service.report.jasper.version>1.0.0-SNAPSHOT</liveSense.service.report.jasper.version>
-        <liveSense.service.jcr.importexport.version>1.0.1-SNAPSHOT</liveSense.service.jcr.importexport.version>
-		<liveSense.service.securityManager.version>1.0.1-SNAPSHOT</liveSense.service.securityManager.version>
-		<liveSense.service.thumbnailGenerator.version>1.0.1-SNAPSHOT</liveSense.service.thumbnailGenerator.version>
-		<liveSense.service.xssRemove.version>1.0.1-SNAPSHOT</liveSense.service.xssRemove.version>
-		<liveSense.content.initial.version>1.0.2-SNAPSHOT</liveSense.content.initial.version>
-		<liveSense.sample.gwt.notes.version>1.0.1-SNAPSHOT</liveSense.sample.gwt.notes.version>
-		<liveSense.sample.gwt.notesRequestFactory.version>1.0.0-SNAPSHOT</liveSense.sample.gwt.notesRequestFactory.version>
-		<liveSense.sample.markdown.version>1.0.0-SNAPSHOT</liveSense.sample.markdown.version>
-		<liveSense.sample.simplePortal.version>1.0.1-SNAPSHOT</liveSense.sample.simplePortal.version>
-		<liveSense.sample.solr.version>1.0.0-SNAPSHOT</liveSense.sample.solr.version>
-		<liveSense.sample.webServiceServlet.version>1.0.0-SNAPSHOT</liveSense.sample.webServiceServlet.version>
-		<liveSense.fragment.com.sun.image.codec.jpeg.version>1.0.1-SNAPSHOT</liveSense.fragment.com.sun.image.codec.jpeg.version>
-		<liveSense.misc.configurationLoader.version>1.0.1-SNAPSHOT</liveSense.misc.configurationLoader.version>
-		<liveSense.service.solr.version>1.0.0-SNAPSHOT</liveSense.service.solr.version>
-		<liveSense.service.solr.configurationLoader.version>1.0.0-SNAPSHOT</liveSense.service.solr.configurationLoader.version>
+        
+        <liveSense.dist.version>${project.version}</liveSense.dist.version>
+		<liveSense.jcr.explorer.version>${project.version}</liveSense.jcr.explorer.version>
+		<liveSense.jcr.restexplorer.version>${project.version}</liveSense.jcr.restexplorer.version>
+		<liveSense.auth.ldap.version>${project.version}</liveSense.auth.ldap.version>
+		<liveSense.config.ldap.version>${project.version}</liveSense.config.ldap.version>
+		<liveSense.jdbc.h2.version>${project.version}</liveSense.jdbc.h2.version>
+		<liveSense.jdbc.jaybird.version>${project.version}</liveSense.jdbc.jaybird.version>
+		<liveSense.jdbc.mysql.version>${project.version}</liveSense.jdbc.mysql.version>
+		<liveSense.misc.log.lilith.core.version>${project.version}</liveSense.misc.log.lilith.core.version>
+		<liveSense.misc.log.config.default.version>${project.version}</liveSense.misc.log.config.default.version>
+        <liveSense.fragment.customloginpage.version>${project.version}</liveSense.fragment.customloginpage.version>
+		<liveSense.fragment.sun.misc.version>${project.version}</liveSense.fragment.sun.misc.version>
+		<liveSense.fragment.sun.security.version>${project.version}</liveSense.fragment.sun.security.version>
+		<liveSense.fragment.javax.jws-jre-1.6.version>${project.version}</liveSense.fragment.javax.jws-jre-1.6.version>
+		<liveSense.fragment.javax.xml-jre-1.6.version>${project.version}</liveSense.fragment.javax.xml-jre-1.6.version>
+		<liveSense.fragment.jackrabbit.server.jaybird.ddl.version>${project.version}</liveSense.fragment.jackrabbit.server.jaybird.ddl.version>
+		<liveSense.fragment.javax.activation-jre-1.6.version>${project.version}</liveSense.fragment.javax.activation-jre-1.6.version>
+		<liveSense.webconsole.branding.version>${project.version}</liveSense.webconsole.branding.version>
+		<liveSense.features.branding.version>${project.version}</liveSense.features.branding.version>
+		<liveSense.core.version>${project.version}</liveSense.core.version>
+		<liveSense.framework.apacheds.version>${project.version}</liveSense.framework.apacheds.version>
+		<liveSense.framework.cxf.version>${project.version}</liveSense.framework.cxf.version>
+		<liveSense.framework.gwt.version>${project.version}</liveSense.framework.gwt.version>
+		<liveSense.framework.gxt.version>${project.version}</liveSense.framework.gxt.version>
+		<liveSense.framework.fitnesse.version>${project.version}</liveSense.framework.fitnesse.version>
+		<liveSense.framework.lucene.version>${project.version}</liveSense.framework.lucene.version>
+		<liveSense.framework.jasperreports.version>${project.version}</liveSense.framework.jasperreports.version>
+		<liveSense.framework.solr.version>${project.version}</liveSense.framework.solr.version>
+		<liveSense.framework.wro4j.version>${project.version}</liveSense.framework.wro4j.version>
+		<liveSense.framework.jodconverter.version>${project.version}</liveSense.framework.jodconverter.version>
+		<liveSense.framework.jodreports.version>${project.version}</liveSense.framework.jodreports.version>
+		<liveSense.launchpad.version>${project.version}</liveSense.launchpad.version>
+		<liveSense.jackrabbit.server.version>${project.version}</liveSense.jackrabbit.server.version>
+		<liveSense.jcr.explorer.version>${project.version}</liveSense.jcr.explorer.version>
+        <liveSense.misc.i18n.version>${project.version}</liveSense.misc.i18n.version>
+		<liveSense.misc.javax.persistence.version>${project.version}</liveSense.misc.javax.persistence.version>
+		<liveSense.misc.jcrom.version>${project.version}</liveSense.misc.jcrom.version>
+		<liveSense.misc.jsr303.version>${project.version}</liveSense.misc.jsr303.version>
+		<liveSense.misc.gwt.jsr303.version>${project.version}</liveSense.misc.gwt.jsr303.version>
+		<liveSense.misc.queryBuilder.version>${project.version}</liveSense.misc.queryBuilder.version>
+		<liveSense.misc.queryBuilder.gwt.version>${project.version}</liveSense.misc.queryBuilder.gwt.version>
+		<liveSense.scripting.jsp.taglib.jstl.version>${project.version}</liveSense.scripting.jsp.taglib.jstl.version>
+		<liveSense.scripting.jsp.taglib.jsonatg.version>${project.version}</liveSense.scripting.jsp.taglib.jsonatg.version>
+		<liveSense.scripting.ruby.version>${project.version}</liveSense.scripting.ruby.version>
+		<liveSense.service.apacheds.version>${project.version}</liveSense.service.apacheds.version>
+		<liveSense.service.apacheds.configurationLoader.version>${project.version}</liveSense.service.apacheds.configurationLoader.version>
+		<liveSense.service.activation.version>${project.version}</liveSense.service.activation.version>
+		<liveSense.service.captcha.version>${project.version}</liveSense.service.captcha.version>
+		<liveSense.service.cxf.version>${project.version}</liveSense.service.cxf.version>
+		<liveSense.service.dataSourceProvider.version>${project.version}</liveSense.service.dataSourceProvider.version>
+		<liveSense.service.email.version>${project.version}</liveSense.service.email.version>
+		<liveSense.service.guacamole.version>${project.version}</liveSense.service.guacamole.version>
+		<liveSense.service.gwt.version>${project.version}</liveSense.service.gwt.version>
+		<liveSense.service.languageSelector.version>${project.version}</liveSense.service.languageSelector.version>
+		<liveSense.service.markdown.version>${project.version}</liveSense.service.markdown.version>
+		<liveSense.service.report.jasper.version>${project.version}</liveSense.service.report.jasper.version>
+        <liveSense.service.jcr.importexport.version>${project.version}</liveSense.service.jcr.importexport.version>
+		<liveSense.service.securityManager.version>${project.version}</liveSense.service.securityManager.version>
+		<liveSense.service.thumbnailGenerator.version>${project.version}</liveSense.service.thumbnailGenerator.version>
+		<liveSense.service.xssRemove.version>${project.version}</liveSense.service.xssRemove.version>
+		<liveSense.content.initial.version>${project.version}</liveSense.content.initial.version>
+		<liveSense.sample.gwt.notes.version>${project.version}</liveSense.sample.gwt.notes.version>
+		<liveSense.sample.gwt.notesRequestFactory.version>${project.version}</liveSense.sample.gwt.notesRequestFactory.version>
+		<liveSense.sample.markdown.version>${project.version}</liveSense.sample.markdown.version>
+		<liveSense.sample.simplePortal.version>${project.version}</liveSense.sample.simplePortal.version>
+		<liveSense.sample.solr.version>${project.version}</liveSense.sample.solr.version>
+		<liveSense.sample.webServiceServlet.version>${project.version}</liveSense.sample.webServiceServlet.version>
+		<liveSense.fragment.com.sun.image.codec.jpeg.version>${project.version}</liveSense.fragment.com.sun.image.codec.jpeg.version>
+		<liveSense.misc.configurationLoader.version>${project.version}</liveSense.misc.configurationLoader.version>
+		<liveSense.service.solr.version>${project.version}</liveSense.service.solr.version>
+		<liveSense.service.solr.configurationLoader.version>${project.version}</liveSense.service.solr.configurationLoader.version>
 	</properties>
 	<!-- <issueManagement> <system>Mantis</system> <url></url> </issueManagement> -->
 
