@@ -4,12 +4,13 @@
 	<groupId>com.github.livesense</groupId>
 	<artifactId>org.liveSense.parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/all.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/all.git</developerConnection>
 		<url>https://github.com/liveSense/all</url>
-	</scm>
+	  <tag>1.0.3</tag>
+  </scm>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -363,7 +364,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 
@@ -377,7 +378,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute/>
+										<execute />
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -390,7 +391,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -403,7 +404,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 
@@ -419,7 +420,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 
@@ -433,7 +434,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 
@@ -448,7 +449,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -461,7 +462,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -474,7 +475,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1605,7 +1606,7 @@
 			<id>Apache Snapshots</id>
 			<url>https://repository.apache.org/content/repositories/snapshots</url>
 			<snapshots>
-				<enabled/>
+				<enabled />
 			</snapshots>
 		</repository>
 
@@ -1621,7 +1622,7 @@
 		<repository>
 			<id>livesense-snapshots</id>
 			<name>livesense-snapshot</name>
-			<snapshots/>
+			<snapshots />
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</repository>
 
@@ -1720,7 +1721,7 @@
 			<url>https://oss.sonatype.org/content/repositories/releases</url>
 		</pluginRepository>
 		<pluginRepository>
-			<snapshots/>
+			<snapshots />
 			<id>livesense-snapshots</id>
 			<name>livesense-plugins-snapshot</name>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
