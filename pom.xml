@@ -4,12 +4,12 @@
 	<groupId>com.github.livesense</groupId>
 	<artifactId>org.liveSense.parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/all.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/all.git</developerConnection>
 		<url>https://github.com/liveSense/all</url>
-	  <tag>HEAD</tag>
+	  <tag>1.0.3</tag>
   </scm>
 	<licenses>
 		<license>
