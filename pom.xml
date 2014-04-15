@@ -621,8 +621,7 @@
 					<artifactId>maven-release-plugin</artifactId>
 					<version>2.2.1</version>
 					<configuration>
-						<!-- TODO tagbase for release -->
-						<tagBase> https://svn.apache.org/repos/asf/sling/tags </tagBase>
+                        <tagNameFormat>@{project.version}</tagNameFormat>
 					</configuration>
 				</plugin>
 
