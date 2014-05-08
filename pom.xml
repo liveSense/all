@@ -228,6 +228,7 @@
 				<configuration>
 					<stylesheet>maven</stylesheet>
 					<excludePackageNames>*.impl:*.internal:${site.javadoc.exclude}</excludePackageNames>
+                    <encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 			<plugin>
