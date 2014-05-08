@@ -205,3 +205,15 @@
 [submodule "org.liveSense.scripting.jsp.taglib.jsonatg"]
 	path = org.liveSense.scripting.jsp.taglib.jsonatg
 	url = https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jsonatg.git
+[submodule "org.liveSense.framework.docx4j"]
+	path = org.liveSense.framework.docx4j
+	url = https://github.com/liveSense/org.liveSense.framework.docx4j.git
+[submodule "org.liveSense.framework.odfdom"]
+	path = org.liveSense.framework.odfdom
+	url = https://github.com/liveSense/org.liveSense.framework.odfdom.git
+[submodule "org.liveSense.framework.itext"]
+	path = org.liveSense.framework.itext
+	url = https://github.com/liveSense/org.liveSense.framework.itext.git
+[submodule "org.liveSense.framework.poi"]
+	path = org.liveSense.framework.poi
+	url = https://github.com/liveSense/org.liveSense.framework.poi.git
