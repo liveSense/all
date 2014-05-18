@@ -30,7 +30,7 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 	<properties>
-		<liveSense.version>1.0.3</liveSense.version>
+		<liveSense.version>1.0.4-SNAPSHOT</liveSense.version>
 		<gwt.version>2.5.0</gwt.version>
 		<gxt.version>3.0.1</gxt.version>
 		<jackrabbit.version>2.7.2</jackrabbit.version>
@@ -160,15 +160,21 @@
 		<liveSense.core.version>${liveSense.version}</liveSense.core.version>
 		<liveSense.framework.apacheds.version>${liveSense.version}</liveSense.framework.apacheds.version>
 		<liveSense.framework.cxf.version>${liveSense.version}</liveSense.framework.cxf.version>
+		<liveSense.framework.docx4j.version>${liveSense.version}</liveSense.framework.docx4j.version>
+		<liveSense.framework.dom4j.version>${liveSense.version}</liveSense.framework.dom4j.version>
+		<liveSense.framework.fitnesse.version>${liveSense.version}</liveSense.framework.fitnesse.version>
 		<liveSense.framework.gwt.version>${liveSense.version}</liveSense.framework.gwt.version>
 		<liveSense.framework.gxt.version>${liveSense.version}</liveSense.framework.gxt.version>
-		<liveSense.framework.fitnesse.version>${liveSense.version}</liveSense.framework.fitnesse.version>
-		<liveSense.framework.lucene.version>${liveSense.version}</liveSense.framework.lucene.version>
+		<liveSense.framework.itext.version>${liveSense.version}</liveSense.framework.itext.version>
 		<liveSense.framework.jasperreports.version>${liveSense.version}</liveSense.framework.jasperreports.version>
-		<liveSense.framework.solr.version>${liveSense.version}</liveSense.framework.solr.version>
-		<liveSense.framework.wro4j.version>${liveSense.version}</liveSense.framework.wro4j.version>
 		<liveSense.framework.jodconverter.version>${liveSense.version}</liveSense.framework.jodconverter.version>
 		<liveSense.framework.jodreports.version>${liveSense.version}</liveSense.framework.jodreports.version>
+		<liveSense.framework.lucene.version>${liveSense.version}</liveSense.framework.lucene.version>
+		<liveSense.framework.odfdom.version>${liveSense.version}</liveSense.framework.odfdom.version>
+		<liveSense.framework.poi.version>${liveSense.version}</liveSense.framework.poi.version>
+		<liveSense.framework.solr.version>${liveSense.version}</liveSense.framework.solr.version>
+		<liveSense.framework.wro4j.version>${liveSense.version}</liveSense.framework.wro4j.version>
+		<liveSense.framework.xdocreport.version>${liveSense.version}</liveSense.framework.xdocreport.version>
 		<liveSense.launchpad.version>${liveSense.version}</liveSense.launchpad.version>
 		<liveSense.jackrabbit.server.version>${liveSense.version}</liveSense.jackrabbit.server.version>
 		<liveSense.jcr.explorer.version>${liveSense.version}</liveSense.jcr.explorer.version>
@@ -748,16 +754,22 @@
                 <module>org.liveSense.jdbc.jaybird</module>
                 <module>org.liveSense.jdbc.h2</module>
                 <module>org.liveSense.framework.apacheds</module>
+                <module>org.liveSense.framework.cxf</module>
+                <module>org.liveSense.framework.docx4j</module>
+                <module>org.liveSense.framework.dom4j</module>
+                <module>org.liveSense.framework.fitnesse</module>
                 <module>org.liveSense.framework.gwt</module>
                 <module>org.liveSense.framework.gxt</module>
-                <module>org.liveSense.framework.cxf</module>
+                <module>org.liveSense.framework.itext</module>
                 <module>org.liveSense.framework.jasperreports</module>
                 <module>org.liveSense.framework.jodconverter</module>
                 <module>org.liveSense.framework.jodreports</module>
-                <module>org.liveSense.framework.fitnesse</module>
                 <module>org.liveSense.framework.lucene</module>
+                <module>org.liveSense.framework.odfdom</module>
+                <module>org.liveSense.framework.poi</module>
                 <module>org.liveSense.framework.solr</module>
                 <module>org.liveSense.framework.wro4j</module>
+                <module>org.liveSense.framework.xdocreport</module>
                 <module>org.liveSense.service.dataSourceProvider</module>
                 <module>org.liveSense.service.securityManager</module>
                 <module>org.liveSense.service.activation</module>

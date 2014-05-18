@@ -217,3 +217,9 @@
 [submodule "org.liveSense.framework.poi"]
 	path = org.liveSense.framework.poi
 	url = https://github.com/liveSense/org.liveSense.framework.poi.git
+[submodule "org.liveSense.framework.dom4j"]
+	path = org.liveSense.framework.dom4j
+	url = https://github.com/liveSense/org.liveSense.framework.dom4j.git
+[submodule "org.liveSense.framework.xdocreport"]
+	path = org.liveSense.framework.xdocreport
+	url = https://github.com/liveSense/org.liveSense.framework.xdocreport.git
