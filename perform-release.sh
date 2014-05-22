@@ -76,12 +76,26 @@ projects=(
 "org.liveSense.karaf"
 )
 
+mvn versions:update-child-modules -DgenerateBackupPoms=false
 
 for p in ${!projects[*]}
 do
     cd "${projects[$p]}"
 
-    ##printf '%s\n' "${PWD##*/}"
+git add .
+    OUT=$?
+    if [ $OUT -ne 0 ];then
+        echo "ERROR ON GIT ADD: ${PWD##*/}"
+        exit 1;
+    fi
+
+    git commit --allow-empty -m "Update parent version"
+    OUT= $?
+    if [ $OUT -ne 0 ];then
+        echo "ERROR ON GIT COMMIT: ${PWD##*/}"
+        exit 1;
+    fi
+
     /usr/local/bin/mvn -B release:clean
     /usr/local/bin/mvn -B release:prepare -DdryRun=true
     OUT=$?
