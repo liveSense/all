@@ -1,5 +1,7 @@
-#"org.liveSense.launchpad"
-#"org.liveSense.dist"
+: <<'END'
+"org.liveSense.launchpad"
+"org.liveSense.dist"
+END
 
 projects=(
 "org.liveSense.auth.ldap"
@@ -76,47 +78,14 @@ projects=(
 "org.liveSense.karaf"
 )
 
-mvn versions:update-child-modules -DgenerateBackupPoms=false
-
 for p in ${!projects[*]}
 do
     cd "${projects[$p]}"
-
-git add .
+    git checkout 1.0.4
     OUT=$?
     if [ $OUT -ne 0 ];then
-        echo "ERROR ON GIT ADD: ${PWD##*/}"
+        echo "ERROR ON CHECKOUT ADD: ${PWD##*/}"
         exit 1;
     fi
-
-    git commit --allow-empty -m "Update parent version"
-    OUT= $?
-    if [ $OUT -ne 0 ];then
-        echo "ERROR ON GIT COMMIT: ${PWD##*/}"
-        exit 1;
-    fi
-
-    /usr/local/bin/mvn -B release:clean
-    /usr/local/bin/mvn -B release:prepare -DdryRun=true
-    OUT=$?
-    if [ $OUT -eq 0 ];then
-        /usr/local/bin/mvn -B release:clean
-        /usr/local/bin/mvn -B release:prepare
-    else
-        echo "ERROR ON RELEASE: ${PWD##*/}"
-        /usr/local/bin/mvn -B release:clean
-        exit 1;
-    fi
-
-    /usr/local/bin/mvn release:perform
-    OUT=$?
-    if [ $OUT -eq 0 ];then
-        echo "RELEASE OK";
-    else
-        echo "ERROR ON RELEASE: ${PWD##*/}"
-        /usr/local/bin/mvn -B release:rollback
-        exit 1;
-    fi
-
     cd ..
 done
