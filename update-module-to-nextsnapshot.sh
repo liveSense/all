@@ -81,7 +81,7 @@ projects=(
 for p in ${!projects[*]}
 do
     cd "${projects[$p]}"
-    mvn versions:update-parent -DparentVersion=1.0.5-SNAPSHOT -DgenerateBackupPoms=false -DallowSnapshots=true
+    mvn versions:update-parent -DparentVersion=1.0.6-SNAPSHOT -DgenerateBackupPoms=false -DallowSnapshots=true
     OUT=$?
     if [ $OUT -ne 0 ];then
         echo "ERROR ON UPDATE SNAPHOT: ${PWD##*/}"

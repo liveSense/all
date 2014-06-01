@@ -81,7 +81,7 @@ projects=(
 for p in ${!projects[*]}
 do
     cd "${projects[$p]}"
-    git checkout 1.0.4
+    git checkout 1.0.5
     OUT=$?
     if [ $OUT -ne 0 ];then
         echo "ERROR ON CHECKOUT ADD: ${PWD##*/}"

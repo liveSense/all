@@ -30,7 +30,7 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 	<properties>
-		<liveSense.version>1.0.5-SNAPSHOT</liveSense.version>
+		<liveSense.version>${project.version}</liveSense.version>
 		<gwt.version>2.5.0</gwt.version>
 		<gxt.version>3.0.1</gxt.version>
 		<jackrabbit.version>2.7.2</jackrabbit.version>
