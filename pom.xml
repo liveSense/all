@@ -4,7 +4,7 @@
 	<groupId>com.github.livesense</groupId>
 	<artifactId>org.liveSense.parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.5</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/all.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/all.git</developerConnection>
@@ -30,7 +30,7 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 	<properties>
-		<liveSense.version>1.0.5</liveSense.version>
+		<liveSense.version>1.0.6-SNAPSHOT</liveSense.version>
 		<gwt.version>2.5.0</gwt.version>
 		<gxt.version>3.0.1</gxt.version>
 		<jackrabbit.version>2.7.2</jackrabbit.version>
@@ -808,6 +808,7 @@
                 <module>org.liveSense.karaf</module>
             </modules>
         </profile>
+<!--
         <profile>
             <id>launchpad</id>
             <modules>
@@ -820,7 +821,7 @@
                 <module>org.liveSense.dist</module>
             </modules>
         </profile>
-
+-->
 		<profile>
 			<id>attach-features</id>
 			<activation>
