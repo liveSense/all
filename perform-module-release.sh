@@ -112,7 +112,7 @@ do
     fi
 
     git diff-index --quiet HEAD ||  git commit --allow-empty -m "Update parent version"
-    OUT= $?
+    OUT=$?
     if [ $OUT -ne 0 ];then
         echo "ERROR ON GIT COMMIT: ${PWD##*/}"
         exit 1;
