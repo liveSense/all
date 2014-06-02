@@ -1,1 +1,1 @@
-mvn gpg:sign-and-deploy-file -Dfile=./pom.xml -Durl=https://oss.sonatype.org/service/local/staging/deploy/maven2/ -DrepositoryId=livesense-distribution-staging -DartifactId=org.liveSense.parent -DgroupId=com.github.liveSense -Dversion=1.0.5
+mvn gpg:sign-and-deploy-file -Dfile=./pom.xml -Durl=https://oss.sonatype.org/service/local/staging/deploy/maven2/ -DrepositoryId=livesense-distribution-staging -DartifactId=org.liveSense.parent -DgroupId=com.github.livesense -Dversion=1.0.5 -Dpackaging=pom

@@ -98,6 +98,24 @@ liveSense is licensed under [Apache License Version 2.0](http://www.apache.org/l
 
 # How can I start?
 
+* Run the engine (with karaf)
+
+	Unpack the zip: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.5.zip
+	
+	or
+	
+	Unpack the tar.gz: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.5.tar.gz
+	
+	And in the bin directory you can start livesense.bat or livesense
+	
+	After you start, you can view a console. Type help or read more in [hhttp://karaf.apache.org/manual/latest/index.html](http://karaf.apache.org/manual/latest/index.html)]
+
+* Run the engine (with launchpad) - Temporary removed, if someone want to use it please send a mail
+
+		./liveSense-launchpad.command
+		
+	After you start, you can explore it in [http://localhost:8080](http://localhost:8080)]
+
 To build you have to download
 
 * Sun Java SDK / openJDK 1.6/1.7
@@ -124,7 +142,7 @@ To build you have to download
 
 		mvn clean install -P reactor
 
-* Creates launchpad bundle
+* Creates launchpad bundle - Temporary removed, if someone want to use it please send a mail
 
 		mvn clean install -P launchpad
 
@@ -132,23 +150,7 @@ To build you have to download
 
 		mvn clean install -P karaf
 
-* Creates dist bundle (installer)
+* Creates dist bundle (installer) - Temporary removed, if someone want to use it please send a mail
 
 		mvn clean install -P dist
 
-* Run the engine (with karaf)
-
-	Unpack the zip: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.1-SNAPSHOT.zip
-	
-	or
-	
-	Unpack the tar.gz: org.liveSense.karaf/assemblies/liveSense-assemblies-default/target/liveSense-assembiles-default-1.0.1-SNAPSHOT.tar.gz
-	
-	And in the bin directory you can start livesense.bat or livesense
-	
-	After you start, you can view a console. Type help or read more in [http://karaf.apache.org/manual/latest-2.3.x/users-guide/web-console.html](http://karaf.apache.org/manual/latest-2.3.x/users-guide/web-console.html)]
-* Run the engine (with launchpad)
-
-		./liveSense-launchpad.command
-		
-	After you start, you can explore it in [http://localhost:8080](http://localhost:8080)]
