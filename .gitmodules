@@ -223,3 +223,9 @@
 [submodule "org.liveSense.framework.xdocreport"]
 	path = org.liveSense.framework.xdocreport
 	url = https://github.com/liveSense/org.liveSense.framework.xdocreport.git
+[submodule "org.liveSense.misc.jcrWrapper"]
+	path = org.liveSense.misc.jcrWrapper
+	url = https://github.com/liveSense/org.liveSense.misc.jcrWrapper.git
+[submodule "org.liveSense.misc.sessionManager"]
+	path = org.liveSense.misc.sessionManager
+	url = https://github.com/liveSense/org.liveSense.misc.sessionManager.git
