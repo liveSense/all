@@ -218,6 +218,7 @@
 		<liveSense.fragment.com.sun.image.codec.jpeg.version>${liveSense.version}</liveSense.fragment.com.sun.image.codec.jpeg.version>
 		<liveSense.misc.configurationLoader.version>${liveSense.version}</liveSense.misc.configurationLoader.version>
 		<liveSense.service.solr.version>${liveSense.version}</liveSense.service.solr.version>
+		<liveSense.servlet.solr.version>${liveSense.version}</liveSense.servlet.solr.version>
 		<liveSense.service.solr.configurationLoader.version>${liveSense.version}</liveSense.service.solr.configurationLoader.version>
 	</properties>
 	<!-- <issueManagement> <system>Mantis</system> <url></url> </issueManagement> -->
@@ -793,6 +794,7 @@
 				<module>org.liveSense.service.report.jasper</module>
 				<module>org.liveSense.service.jcr.importexport</module>
 				<module>org.liveSense.service.solr</module>
+				<module>org.liveSense.servlet.solr</module>
 				<module>org.liveSense.service.solr.configurationLoader</module>
 				<module>org.liveSense.jcr.explorer</module>
 				<module>org.liveSense.jcr.restexplorer</module>
@@ -1399,6 +1401,13 @@
 				<version>${liveSense.service.solr.version}</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>com.github.livesense</groupId>
+				<artifactId>org.liveSense.servlet.solr</artifactId>
+				<version>${liveSense.servlet.solr.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
 			<dependency>
 				<groupId>com.github.livesense</groupId>
 				<artifactId>org.liveSense.service.thumbnailGenerator</artifactId>

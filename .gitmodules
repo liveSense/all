@@ -229,3 +229,6 @@
 [submodule "org.liveSense.misc.sessionManager"]
 	path = org.liveSense.misc.sessionManager
 	url = https://github.com/liveSense/org.liveSense.misc.sessionManager.git
+[submodule "org.liveSense.servlet.solr"]
+	path = org.liveSense.servlet.solr
+	url = https://github.com/liveSense/org.liveSense.servlet.solr.git
