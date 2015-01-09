@@ -179,7 +179,7 @@
 		<liveSense.jackrabbit.server.version>${liveSense.version}</liveSense.jackrabbit.server.version>
 		<liveSense.jcr.explorer.version>${liveSense.version}</liveSense.jcr.explorer.version>
 		<liveSense.jcr.explorer.version>${liveSense.version}</liveSense.jcr.explorer.version>
-		<liveSense.jcr.angularexplorer.version>${liveSense.version}</liveSense.jcr.angularexplorer.version>
+		<!--<liveSense.jcr.angularexplorer.version>${liveSense.version}</liveSense.jcr.angularexplorer.version>-->
 		<liveSense.misc.i18n.version>${liveSense.version}</liveSense.misc.i18n.version>
 		<liveSense.misc.javax.persistence.version>${liveSense.version}</liveSense.misc.javax.persistence.version>
 		<liveSense.misc.jcrom.version>${liveSense.version}</liveSense.misc.jcrom.version>
@@ -798,7 +798,7 @@
 				<module>org.liveSense.service.solr.configurationLoader</module>
 				<module>org.liveSense.jcr.explorer</module>
 				<module>org.liveSense.jcr.restexplorer</module>
-				<module>org.liveSense.jcr.angularexplorer</module>
+				<!--<module>org.liveSense.jcr.angularexplorer</module>-->
 				<module>org.liveSense.sample.configurationLoad</module>
 				<module>org.liveSense.sample.gwt.notes</module>
 				<module>org.liveSense.sample.gwt.notesRequestFactory</module>
