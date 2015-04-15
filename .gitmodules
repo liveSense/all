@@ -232,3 +232,6 @@
 [submodule "org.liveSense.servlet.solr"]
 	path = org.liveSense.servlet.solr
 	url = https://github.com/liveSense/org.liveSense.servlet.solr.git
+[submodule "org.liveSense.framework.functionaljava"]
+	path = org.liveSense.framework.functionaljava
+	url = https://github.com/liveSense/org.liveSense.framework.functionaljava.git
