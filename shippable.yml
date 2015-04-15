@@ -32,6 +32,6 @@ jdk:
   - oraclejdk7
  
 after_success:
-  - mvn deploy -q --settings target/travis/settings.xml
-  - mvn deploy -P reactor -q --settings target/travis/settings.xml
-  - mvn deploy -P karaf -q --settings target/travis/settings.xml
+  - mvn deploy -q --settings target/shippable/settings.xml
+  - mvn deploy -P reactor -q --settings target/shippable/settings.xml
+  - mvn deploy -P karaf -q --settings target/shippable/settings.xml
