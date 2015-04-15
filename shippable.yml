@@ -7,7 +7,7 @@ before_script:
   - mkdir target/shippable
   - echo "<settings xmlns=\"http://maven.apache.org/SETTINGS/1.0.0\"" > target/shippable/settings.xml
   - echo "    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" >> target/shippable/settings.xml
-  - echo "    xsi:schemaLocation=\"http://maven.apache.org/SETTINGS/1.0.0\"" >> target/shippable/settings.xml
+  - echo "    xsi:schemaLocation=\"http://maven.apache.org/SETTINGS/1.0.0" >> target/shippable/settings.xml
   - echo "    http://maven.apache.org/xsd/settings-1.0.0.xsd\">" >> target/shippable/settings.xml
   - echo "    <servers>" >> target/shippable/settings.xml
   - echo "        <server>" >> target/shippable/settings.xml
