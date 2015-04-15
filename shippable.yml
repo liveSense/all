@@ -1,0 +1,37 @@
+language: java
+
+env:
+  - secure: j/GNefjtIMaDm/pNBlShIyX/IU72AweQv6ia5RQHUkasBlGJ80vusGfkYoeo1wrXxriSB8p/X9mdeTJyjKk4q6fqK3tD5P7LY6bqxPSOyF1DOQiQBc3Bb+4B2Gob70pcHXntueMvmx7YT2/OlGO5jgAdVQ3aQ/Po+egQDS2miEL7uRqFHWo7EGi+6mPUfBVRDycrXmHdcGeAABIhYbiv7DlFEC2s7IbH7KSBXWOJrxmzie5rC11sxldzaaoIWCH7RFKjPNh7OoTTY/qHM9i5qTGEgCsiWxxHZvKvJ69cJPkx7hQ3P+YJrHCPUsF2HEE18qY/k2K3yZixUGPVCRATyg==
+
+before_script:
+  - mkdir target/shippable
+  - echo "<settings xmlns=\"http://maven.apache.org/SETTINGS/1.0.0\"" > target/shippable/settings.xml
+  - echo "    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" >> target/shippable/settings.xml
+  - echo "    xsi:schemaLocation=\"http://maven.apache.org/SETTINGS/1.0.0\"" >> target/shippable/settings.xml
+  - echo "    http://maven.apache.org/xsd/settings-1.0.0.xsd\">" >> target/shippable/settings.xml
+  - echo "    <servers>" >> target/shippable/settings.xml
+  - echo "        <server>" >> target/shippable/settings.xml
+  - echo "            <id>livesense-distribution-snapshots</id>" >> target/shippable/settings.xml
+  - echo "            <username>${CI_DEPLOY_USERNAME}</username>" >> target/shippable/settings.xml
+  - echo "            <password>${CI_DEPLOY_PASSWORD}</password>" >> target/shippable/settings.xml
+  - echo "        </server>" >> target/shippable/settings.xml
+  - echo "        <server>" >> target/shippable/settings.xml
+  - echo "            <id>livesense-distribution-releases</id>" >> target/shippable/settings.xml
+  - echo "            <username>${CI_DEPLOY_USERNAME}</username>" >> target/shippable/settings.xml
+  - echo "            <password>${CI_DEPLOY_PASSWORD}</password>" >> target/shippable/settings.xml
+  - echo "        </server>" >> target/shippable/settings.xml
+  - echo "        <server>" >> target/shippable/settings.xml
+  - echo "            <id>livesense-distribution-staging</id>" >> target/shippable/settings.xml
+  - echo "            <username>${CI_DEPLOY_USERNAME}</username>" >> target/shippable/settings.xml
+  - echo "            <password>${CI_DEPLOY_PASSWORD}</password>" >> target/shippable/settings.xml
+  - echo "        </server>" >> target/shippable/settings.xml
+  - echo "    </servers>" >> target/shippable/settings.xml
+  - echo "</settings>" >> target/shippable/settings.xml
+
+jdk:
+  - oraclejdk7
+ 
+after_success:
+  - mvn deploy -q --settings target/travis/settings.xml
+  - mvn deploy -P reactor -q --settings target/travis/settings.xml
+  - mvn deploy -P karaf -q --settings target/travis/settings.xml
