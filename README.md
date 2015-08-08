@@ -154,4 +154,5 @@ To build you have to download
 
 		mvn clean install -P dist
 
-* Greetings to [JetBrains](http://www.jetbrains.com/) for giving away free licenses for IntelliJ IDEA for this project contributors.*
+
+*Greetings to [JetBrains](http://www.jetbrains.com/) for giving away free licenses for IntelliJ IDEA for this project contributors.*
